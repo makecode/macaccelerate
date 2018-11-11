@@ -1,0 +1,43 @@
+.container
+  width: 860px
+  margin: 0 auto
+
+.section
+  display: flex
+  width: 100%
+
+  &__left
+    width: 58%
+  //border-right: 1px solid #E3E4E7
+
+  &__right
+    width: 42%
+
+  &.width
+    .section__left
+      width: 42%
+
+    .section__right
+      width: 58%
+
+.header
+  padding: 0 30px
+  border-bottom: 1px solid #E3E4E7
+
+  .item
+    align-items: center
+
+    &__information
+      margin-left: 30px
+      flex-direction: row
+
+    &__description
+      display: block
+
+.footer
+  padding: 30px
+  display: flex
+  justify-content: space-between
+  align-items: center
+  background-color: #f3f4f6
+  border-top: 1px solid #E3E4E7

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="14px" viewBox="0 0 14 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+    <title>Checkbox - Checked</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polyline id="path-1" points="3.75 7.75 6 10.25 11 4"></polyline>
+        <filter x="-28.4%" y="-24.9%" width="156.7%" height="160.9%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="0.75" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="0.5" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feMorphology radius="1" operator="erode" in="SourceAlpha" result="shadowInner"></feMorphology>
+            <feOffset dx="0" dy="0.5" in="shadowInner" result="shadowInner"></feOffset>
+            <feComposite in="shadowOffsetOuter1" in2="shadowInner" operator="out" result="shadowOffsetOuter1"></feComposite>
+            <feGaussianBlur stdDeviation="0.25" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Checkbox---Checked" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Base" x="0" y="0" width="14" height="14" rx="3"></rect>
+        <g id="Glyph" stroke-linecap="round" stroke-linejoin="round">
+            <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+            <use stroke="#FFFFFF" stroke-width="1.5" xlink:href="#path-1"></use>
+        </g>
+    </g>
+</svg>

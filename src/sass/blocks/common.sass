@@ -1,14 +1,79 @@
 //write here your sass
-//+font(roboto-light, roboto-light)
-//+font(roboto-regular, roboto-regular)
-//+font(roboto-bold, roboto-bold)
++font(sf-pro-display-regular, sf-pro-display-regular)
++font(sf-pro-display-bold, sf-pro-display-bold)
++font(sf-pro-display-semibold, sf-pro-display-semibold)
++font(sf-pro-text-regular, sf-pro-text-regular)
++font(sf-pro-text-bold, sf-pro-text-bold)
 
-//=light
-//  font-family: 'roboto-light', Helvetica, Arial, sans-serif
-//=regular
-//  font-family: 'roboto-regular', Helvetica, Arial, sans-serif
-//=bold
-//  font-family: 'roboto-bold', Helvetica, Arial, sans-serif
+=SFProText
+  font-family: 'sf-pro-text-regular', Helvetica, Arial, sans-serif
+=SFProTextBold
+  font-family: 'sf-pro-text-bold', Helvetica, Arial, sans-serif
+=SFProDisplay
+  font-family: 'SFProDisplay-regular', Helvetica, Arial, sans-serif
+=SFProDisplayBold
+  font-family: 'sf-pro-display-bold', Helvetica, Arial, sans-serif
+=SFProDisplaySemibold
+  font-family: 'sf-pro-display-semibold', Helvetica, Arial, sans-serif
 
 body
-  background-color: #eee
+  display: flex
+  flex-direction: column
+  min-height: 100vh
+  color: $dark
+  font-size: 13px
+  line-height: 1.4
+  +SFProText
+
+.atoms
+  width: 860px
+  margin: 0 auto
+  background-color: #fff
+
+.atom
+  position: relative
+  padding: 20px
+  margin: 20px auto
+  border: 1px solid #f2f2f2
+
+.title
+  color: #1c1c1f
+  letter-spacing: -0.1px
+
+.size
+  padding-right: 30px
+  color: #545457
+  text-align: right
+
+  &.red
+    color: $red
+
+.icon
+
+  &__img
+    width: 36px
+    height: 36px
+
+.path
+  margin-top: 15px
+  color: #87888A
+
+.details
+  margin: 20px 0
+  text-align: right
+
+.info
+
+  &__title
+    font-size: 20px
+    letter-spacing: 0.3px
+    color: $red
+    +SFProDisplaySemibold
+
+  &__descr
+    display: inline-block
+
+.scanning
+  display: flex
+  justify-content: space-between
+  align-items: center

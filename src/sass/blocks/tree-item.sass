@@ -1,0 +1,37 @@
+.tree-item
+  display: flex
+  padding: 20px 0 0 30px
+  width: 100%
+  background-color: #ffffff
+  box-sizing: border-box
+
+  &__left
+    display: inline-flex
+    align-items: center
+
+  &__right
+    display: flex
+    align-items: center
+    justify-content: space-between
+    flex-basis: 100%
+    overflow: hidden
+
+  &__checkbox
+    margin-left: 15px
+    margin-right: 20px
+
+  &__icon
+    margin-right: 15px
+    line-height: 0
+
+  &__text
+    margin-right: 10px
+    overflow: hidden
+    white-space: nowrap
+    text-overflow: ellipsis
+
+  &__size
+    flex-shrink: 0
+
+    &.red
+      color: #EA463D

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="256px" height="256px" viewBox="0 0 256 256" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+    <title>Privacy</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M24,0 C10.745,0 0,10.745 0,24 L0,132 C0,145.255 10.745,156 24,156 L168,156 C181.255,156 192,145.255 192,132 L192,24 C192,10.745 181.255,0 168,0 L24,0 Z" id="path-1"></path>
+        <linearGradient x1="67.7022855%" y1="109.860458%" x2="32.2977185%" y2="-9.86045096%" id="linearGradient-3">
+            <stop stop-color="#F9316E" offset="0%"></stop>
+            <stop stop-color="#FB9C7B" offset="100%"></stop>
+        </linearGradient>
+        <path d="M18.919,0.029 C8.586,0.572 0.227,9.217 0.005,19.561 C-0.158,27.144 3.911,33.774 10,37.303 L10,64 C10,66.209 11.791,68 14,68 L26,68 C28.209,68 30,66.209 30,64 L30,37.303 C35.972,33.842 40,27.398 40,20 C40,8.954 31.046,0 20.001,0 C19.642,0 19.282,0.01 18.919,0.029" id="path-4"></path>
+        <linearGradient x1="-0.000669733385%" y1="50%" x2="100%" y2="50%" id="linearGradient-6">
+            <stop stop-color="#E8EBF4" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Privacy" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <polygon id="Fill-1" points="0 256 256 256 256 0 0 0"></polygon>
+        <polygon id="Fill-2" points="12 244 244 244 244 12 12 12"></polygon>
+        <path d="M128,0 C90.444,0 60,30.444 60,68 L60,204 L196,204 L196,68 C196,30.444 165.556,0 128,0 M128,24 C152.262,24 172,43.738 172,68 L172,180 L84,180 L84,68 C84,43.738 103.738,24 128,24" id="Fill-3" fill="#232D40"></path>
+        <g id="Group-7" transform="translate(32.000000, 88.000000)">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="Clip-6"></g>
+            <path d="M24,0 C10.745,0 0,10.745 0,24 L0,132 C0,145.255 10.745,156 24,156 L168,156 C181.255,156 192,145.255 192,132 L192,24 C192,10.745 181.255,0 168,0 L24,0 Z" id="Fill-5" fill="url(#linearGradient-3)" mask="url(#mask-2)"></path>
+        </g>
+        <path d="M144.4512,139.7617 C140.2312,135.7577 134.7012,133.7357 128.8662,134.0287 C117.9632,134.6027 109.2392,143.6127 109.0052,154.5387 C108.8452,161.9907 112.6602,168.9597 119.0002,172.8687 L119.0002,198.9987 C119.0002,201.7557 121.2432,203.9987 124.0002,203.9987 L136.0002,203.9987 C138.7572,203.9987 141.0002,201.7557 141.0002,198.9987 L141.0002,172.8687 C147.1822,169.0547 151.0002,162.2607 151.0002,154.9987 C151.0002,149.1797 148.6742,143.7687 144.4512,139.7617" id="Fill-8" fill="#000000" opacity="0.15"></path>
+        <g id="Group-12" transform="translate(108.000000, 132.000000)">
+            <mask id="mask-5" fill="white">
+                <use xlink:href="#path-4"></use>
+            </mask>
+            <g id="Clip-11"></g>
+            <path d="M18.919,0.029 C8.586,0.572 0.227,9.217 0.005,19.561 C-0.158,27.144 3.911,33.774 10,37.303 L10,64 C10,66.209 11.791,68 14,68 L26,68 C28.209,68 30,66.209 30,64 L30,37.303 C35.972,33.842 40,27.398 40,20 C40,8.954 31.046,0 20.001,0 C19.642,0 19.282,0.01 18.919,0.029" id="Fill-10" fill="url(#linearGradient-6)" mask="url(#mask-5)"></path>
+        </g>
+    </g>
+</svg>

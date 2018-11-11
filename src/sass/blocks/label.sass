@@ -1,0 +1,32 @@
+.label
+  display: inline-block
+  padding: 0 8px
+  height: 22px
+  line-height: 22px
+  text-align: center
+  background-color: transparent
+  letter-spacing: -0.1px
+  color: $grey
+  border-radius: 3px
+  +SFProTextBold
+
+  // colors
+  &.red
+    color: #FFFFFF
+    background-color: $red
+
+  &.orange
+    color: #FFFFFF
+    background-color: $orange
+
+  &.green
+    color: #FFFFFF
+    background-color: $green
+
+  // sizes
+  &.large
+    padding: 0 12px
+    height: 24px
+    line-height: 24px
+    font-size: 15px
+    +SFProDisplayBold

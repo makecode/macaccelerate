@@ -1,0 +1,28 @@
+.bar
+  position: relative
+  display: flex
+  justify-content: space-between
+  width: 100%
+  height: 6px
+  border-radius: 3px
+  background-color: #DCDCDD
+
+  &__el
+    content: ''
+    position: absolute
+    top: 0
+    left: 0
+    height: 6px
+    border-radius: 3px
+
+    &.red
+      background-color: $red
+
+    &.green
+      background-color: $green
+
+    &.orange
+      background-color: $orange
+
+    &.blue
+      background-color: $blue

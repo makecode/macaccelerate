@@ -1,0 +1,36 @@
+.status
+  width: 100%
+
+  &__titles
+    display: flex
+    justify-content: space-between
+    margin-bottom: 6px
+
+  .label
+    background-color: transparent
+    color: $grey
+
+  &.green.active
+    .label
+      color: #FFFFFF
+      background-color: $green
+
+    .bar
+      background-color: $green
+
+
+  &.orange.active
+    .label
+      color: #FFFFFF
+      background-color: $orange
+
+    .bar
+      background-color: $orange
+
+  &.red.active
+    .label
+      color: #FFFFFF
+      background-color: $red
+
+    .bar
+      background-color: $red
