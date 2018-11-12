@@ -25,9 +25,6 @@ body { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; displa
 
 .title { color: #1c1c1f; letter-spacing: -0.1px; }
 
-.size { padding-right: 30px; color: #545457; text-align: right; }
-.size.red { color: #FF3030; }
-
 .icon__img { width: 36px; height: 36px; }
 
 .path { margin-top: 15px; color: #87888A; }
@@ -50,7 +47,7 @@ body { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; displa
 .button.medium { width: 180px; height: 40px; line-height: 40px; font-size: 14px; letter-spacing: -0.3px; }
 .button.large { width: 270px; height: 56px; line-height: 56px; }
 .button.xs { width: 116px; height: 24px; line-height: 24px; font-size: 13px; color: #0097E8; }
-.button.grey { background-color: #f0f1f1; border-color: #f0f1f1; }
+.button.grey { line-height: 0; background-color: #f0f1f1; border-color: #f0f1f1; }
 
 .checkbox { display: inline-block; position: relative; width: 14px; height: 14px; }
 .checkbox.checked .checkbox__el { border-color: #0097E8; background-color: #0097E8; }
@@ -87,8 +84,8 @@ body { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; displa
 .item.orange .bar__el, .item.orange .label:nth-child(2) { color: #ffffff; background-color: #FFA003; }
 .item.red .item__size { color: #FF3030; }
 .item.red .bar__el, .item.red .label:last-child { color: #ffffff; background-color: #FF3030; }
-.item.column { display: -webkit-inline-box; display: -webkit-inline-flex; display: -ms-inline-flexbox; display: inline-flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column; text-align: center; }
-.item.column .item__info { width: auto; margin-top: 12px; margin-left: 0; }
+.item.column { display: -webkit-inline-box; display: -webkit-inline-flex; display: -ms-inline-flexbox; display: inline-flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; text-align: center; }
+.item.column .item__info { width: auto; margin-top: 12px; margin-left: 0; padding-right: 0; }
 .item.column .item__img { margin-bottom: 30px; }
 .item.column .item__title { font-size: 20px; font-family: "sf-pro-display-semibold", Helvetica, Arial, sans-serif; }
 .item.column .item__description { display: inline-block; margin: 5px 0; }
