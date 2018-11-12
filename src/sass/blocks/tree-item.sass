@@ -1,6 +1,7 @@
 .tree-item
+  position: relative
   display: flex
-  padding: 0 30px
+  padding: 10px 30px
   width: 100%
   background-color: #ffffff
   box-sizing: border-box
@@ -15,6 +16,10 @@
     justify-content: space-between
     flex-basis: 100%
     overflow: hidden
+
+  &__title
+    display: flex
+    align-items: center
 
   &__arrow
     margin-right: 15px
@@ -42,3 +47,24 @@
     &.red
       color: #EA463D
       opacity: 1
+
+  &__btn
+    display: none
+    padding: 6px
+    border: none
+    background-color: transparent
+    background-image: url('../img/icon_search.svg')
+    background-size: cover
+
+  .arrow
+    position: absolute
+    top: 50%
+    left: 10px
+    transform: translateY(-50%)
+    transform-origin: center
+
+  &.selected
+    background-color: rgba($dark, 0.1)
+
+    .tree-item__btn
+      display: inline-block
