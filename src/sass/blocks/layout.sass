@@ -1,6 +1,12 @@
-.container
-  width: 860px
+.app
   margin: 0 auto
+  width: 860px
+  display: flex
+  flex-direction: row
+  flex-wrap: nowrap
+
+.container
+  width: 100%
 
 .section
   display: flex
@@ -8,7 +14,7 @@
 
   &__left
     width: 58%
-  //border-right: 1px solid #E3E4E7
+    text-align: center
 
   &__right
     width: 42%
@@ -21,11 +27,18 @@
       width: 58%
 
 .header
-  padding: 0 30px
-  border-bottom: 1px solid #E3E4E7
+  border-bottom: 1px solid $borderGrey
 
   .item
     align-items: center
+
+    &__wrap
+      width: 100%
+      display: flex
+      justify-content: space-between
+
+    &__title
+      margin-right: 10px
 
     &__information
       margin-left: 30px
@@ -40,4 +53,10 @@
   justify-content: space-between
   align-items: center
   background-color: #f3f4f6
-  border-top: 1px solid #E3E4E7
+  border-top: 1px solid $borderGrey
+
+  &.scaning
+
+    .footer__left
+      width: 100%
+      margin-right: 30px

@@ -9,123 +9,150 @@
   <title>Macaccelerate</title>
 </head>
 <body>
-  <div class="container">
-    <header class="header">
-      <div class="item">
-        <div class="item__img">
-          <img class="item__img" src="img/icon_performance.svg" alt="#">
+  <div class="app">
+
+    <div class="container">
+      <div class="header">
+        <div class="item">
+          <div class="item__img">
+            <img class="icon" src="img/icon_performance.svg" alt="#">
+          </div>
+          <div class="item__information">
+            <div class="item__scan">Scaning… <span class="item__percent">28%</span></div>
+            <span class="item__description">You can review details or just go straight to fixing.</span>
+          </div>
         </div>
-        <div class="item__info">
-          <div class="item__scan">Scaning… <span class="item__percent">28%</span></div>
-          <span class="item__description">You can review details or just go straight to fixing.</span>
-        </div>
-      </div>
-    </header>
-    <ul class="items">
-      <li class="items__el">
-        <div class="item">
-          <div class="item__img">
-            <img class="item__img" src="img/system_junk.svg" alt="icon_system_junk">
-          </div>
-          <div class="item__info">
-            <span class="item__title">System Junk</span>
-            <span class="item__description">Remove junk files, reclaim hard drive space.</span>
-            <span class="item__size orange">2.88 GB</span>
-          </div>
-        </div><!-- end item -->
-        <div class="status">
-          <div class="status__titles">
-            <span class="status__title label green">Clean</span>
-            <span class="status__title label orange active">Dirty</span>
-            <span class="status__title label red">Bloated</span>
-          </div>
-          <div class="bar">
-            <span class="bar__el orange" style="width: 40%"></span>
-          </div>
-        </div><!-- end status -->
-      </li>
-      <li class="items__el">
-        <div class="item">
-          <div class="item__img">
-            <img class="item__img" src="img/icon_performance.svg" alt="icon_perfomance">
-          </div>
-          <div class="item__info">
-            <span class="item__title">Performance</span>
-            <span class="item__description">Fix issues that may be slowing down your Mac.</span>
-          </div>
-        </div><!-- end item -->
-        <div class="status">
-          <div class="status__titles">
-            <span class="status__title label green">Fast</span>
-            <span class="status__title label orange">Moderate</span>
-            <span class="status__title label red">Slow</span>
-          </div>
-          <div class="bar">
-            <span class="bar__el"></span>
-          </div>
-        </div><!-- end status -->
-      </li>
-      <li class="items__el">
-        <div class="item">
-          <div class="item__img">
-            <img class="item__img" src="img/icon_security.svg" alt="icon_security">
-          </div>
-          <div class="item__info">
-            <span class="item__title">Security</span>
-            <span class="item__description">Protect Mac from viruses, adware and hackers.</span>
-          </div>
-        </div><!-- end item -->
-        <div class="status">
-          <div class="status__titles">
-            <span class="status__title label green">Secure</span>
-            <span class="status__title label orange">Unsafe</span>
-            <span class="status__title label red">Danger</span>
-          </div>
-          <div class="bar">
-            <span class="bar__el"></span>
-          </div>
-        </div><!-- end status -->
-      </li>
-      <li class="items__el">
-        <div class="item">
-          <div class="item__img">
-            <img class="item__img" src="img/icon_privacy.svg" alt="icon_privacy">
-          </div>
-          <div class="item__info">
-            <span class="item__title">Privacy</span>
-            <span class="item__description">Fix issues that are compromising your privacy.</span>
-          </div>
-        </div><!-- end item -->
-        <div class="status">
-          <div class="status__titles">
-            <span class="status__title label green">Safe</span>
-            <span class="status__title label orange">Weak</span>
-            <span class="status__title label red">At Risck</span>
-          </div>
-          <div class="bar">
-            <span class="bar__el"></span>
-          </div>
-        </div><!-- end status -->
-      </li>
-    </ul>
-    <footer class="footer">
-      <div class="footer__left">
-        <div class="scanning">
-          <div class="scanning__bar">
-            <span class="item__percent">28%</span>
-            <div class="bar width-100">
-              <span class="bar__el blue" style="width: 28%"></span>
-              <span class="path">/Users/Andrew/Library/Containers</span>
+      </div><!-- end header -->
+      <div class="main">
+        <ul class="list">
+          <li class="list__el">
+            <div class="item red">
+              <div class="item__icon">
+                <img class="icon" src="img/system_junk.svg" alt="icon_system_junk">
+              </div>
+              <div class="item__data">
+                <div class="item__info">
+                  <span class="item__title">System Junk</span>
+                  <span class="item__description">Remove junk files, reclaim hard drive space.</span>
+                  <span class="item__size">8.59 GB</span>
+                </div>
+                <div class="item__status">
+                  <div class="status">
+                    <div class="status__titles">
+                      <span class="status__title label">Clean</span>
+                      <span class="status__title label">Dirty</span>
+                      <span class="status__title label">Bloated</span>
+                    </div>
+                    <div class="bar">
+                      <span class="bar__el" style="width: 100%"></span>
+                    </div>
+                  </div>
+                  <div class="item__details">
+                    <button class="item__button">Details</button>
+                  </div>
+                </div>
+              </div>
             </div>
-          </div>
-        </div><!-- end scanning -->
-      </div>
-      <div class="footer__right">
-        <div class="scanning__btn">
-          <button class="button small">Stop</button>
+          </li>
+          <li class="list__el">
+            <div class="item red">
+              <div class="item__icon">
+                <img class="icon" src="img/icon_performance.svg" alt="icon_system_junk">
+              </div>
+              <div class="item__data">
+                <div class="item__info">
+                  <span class="item__title">Performance</span>
+                  <span class="item__description">Protect Mac from viruses, adware and hackers.</span>
+                  <span class="item__size">93 issues</span>
+                </div>
+                <div class="item__status">
+                  <div class="status">
+                    <div class="status__titles">
+                      <span class="status__title label">Fast</span>
+                      <span class="status__title label">Moderate</span>
+                      <span class="status__title label">Slow</span>
+                    </div>
+                    <div class="bar">
+                      <span class="bar__el" style="width: 100%"></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="list__el">
+            <div class="item orange">
+              <div class="item__icon">
+                <img class="icon" src="img/icon_security.svg" alt="icon_system_junk">
+              </div>
+              <div class="item__data">
+                <div class="item__info">
+                  <span class="item__title">Security</span>
+                  <span class="item__description">Protect Mac from viruses, adware and hackers.</span>
+                  <span class="item__size">43 threats</span>
+                </div>
+                <div class="item__status">
+                  <div class="status">
+                    <div class="status__titles">
+                      <span class="status__title label">Clean</span>
+                      <span class="status__title label">Dirty</span>
+                      <span class="status__title label">Bloated</span>
+                    </div>
+                    <div class="bar">
+                      <span class="bar__el" style="width: 40%"></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="list__el">
+            <div class="item green">
+              <div class="item__icon">
+                <img class="icon" src="img/icon_privacy.svg" alt="icon_system_junk">
+              </div>
+              <div class="item__data">
+                <div class="item__info">
+                  <span class="item__title">Privacy</span>
+                  <span class="item__description">Fix issues that are compromising your privacy.</span>
+                  <span class="item__size">2 items</span>
+                </div>
+                <div class="item__status">
+                  <div class="status">
+                    <div class="status__titles">
+                      <span class="status__title label">Safe</span>
+                      <span class="status__title label">Weak</span>
+                      <span class="status__title label">At Risck</span>
+                    </div>
+                    <div class="bar">
+                      <span class="bar__el" style="width: 13%"></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div><!-- end main -->
+      <div class="footer scaning">
+        <div class="footer__left">
+          <div class="scanning">
+            <div class="scanning__bar">
+              <span class="item__percent">28%</span>
+              <div class="bar">
+                <span class="bar__el blue" style="width: 28%"></span>
+                <span class="path">/Users/Andrew/Library/Containers</span>
+              </div>
+            </div>
+          </div><!-- end scanning -->
         </div>
-      </div>
-    </footer>
-  </div>
+        <div class="footer__right">
+          <div class="scanning__btn">
+            <button class="button small">Stop</button>
+          </div>
+        </div>
+      </div><!-- end  footer -->
+    </div><!-- end container -->
+  </div><!-- end  app -->
 </body>
 </html>

@@ -9,310 +9,286 @@
   <title>Macaccelerate</title>
 </head>
 <body>
-<div class="container">
-  <div class="header">
-    <div class="item">
-      <div class="item__img">
-        <img class="icon" src="img/icon_performance.svg" alt="#">
-      </div>
-      <div class="item__info">
-        <span class="item__title">System Status</span>
-        <span class="label large red">Bloated</span>
-        <span class="item__description">You can review details or just go straight to fixing.</span>
-      </div>
+  <div class="app">
+    <div class="container">
+      <div class="header">
+        <div class="item">
+          <div class="item__icon">
+            <img class="icon" src="img/system_junk.svg" alt="#">
+          </div>
+          <div class="item__wrap">
+            <div class="item__information">
+              <span class="item__title fz-20">System Junk Files</span>
+              <span class="label large red">Bloated</span>
+              <span class="item__description">Remove junk files, reclaim hard drive space.</span>
+            </div>
+            <div class="junk-files">
+              <span class="junk-files__size red">8.59 GB</span>
+            </div>
+            </div>
+          </div><!-- end item__wrap -->
+      </div><!-- end header -->
+      <div class="main">
+        <section class="section width">
+          <div class="section__left">
+            <ul class="list tree-items">
+              <li class="list__el">
+                <div class="tree-item">
+                  <div class="tree-item__left">
+                    <div class="tree-item__checkbox">
+                      <div class="checkbox">
+                        <label class="checkbox__label">
+                          <input class="checkbox__input" type="checkbox" />
+                          <span class="checkbox__el"></span>
+                        </label>
+                      </div>
+                    </div>
+                    <div class="tree-item__icon">
+                      <img class="icon small empty" src="#" />
+                    </div>
+                  </div>
+                  <div class="tree-item__right">
+                    <span class="tree-item__text">Caches</span>
+                    <span class="tree-item__size">2.28 GB</span>
+                  </div>
+                </div><!-- end tree-item -->
+              </li>
+              <li class="list__el">
+                <div class="tree-item">
+                  <div class="tree-item__left">
+                    <div class="tree-item__checkbox">
+                      <div class="checkbox">
+                        <label class="checkbox__label">
+                          <input class="checkbox__input" type="checkbox" />
+                          <span class="checkbox__el"></span>
+                        </label>
+                      </div>
+                    </div>
+                    <div class="tree-item__icon">
+                      <img class="icon small empty" src="#" />
+                    </div>
+                  </div>
+                  <div class="tree-item__right">
+                    <span class="tree-item__text">Logs</span>
+                    <span class="tree-item__size">892.4 MB</span>
+                  </div>
+                </div><!-- end tree-item -->
+              </li>
+              <li class="list__el">
+                <div class="tree-item">
+                  <div class="tree-item__left">
+                    <div class="tree-item__checkbox">
+                      <div class="checkbox">
+                        <label class="checkbox__label">
+                          <input class="checkbox__input" type="checkbox" />
+                          <span class="checkbox__el"></span>
+                        </label>
+                      </div>
+                    </div>
+                    <div class="tree-item__icon">
+                      <img class="icon small empty" src="#" />
+                    </div>
+                  </div>
+                  <div class="tree-item__right">
+                    <span class="tree-item__text">Unused Languages</span>
+                    <span class="tree-item__size">57.2 MB</span>
+                  </div>
+                </div><!-- end tree-item -->
+              </li>
+              <li class="list__el">
+                <div class="tree-item">
+                  <div class="tree-item__left">
+                    <div class="tree-item__checkbox">
+                      <div class="checkbox">
+                        <label class="checkbox__label">
+                          <input class="checkbox__input" type="checkbox" />
+                          <span class="checkbox__el"></span>
+                        </label>
+                      </div>
+                    </div>
+                    <div class="tree-item__icon">
+                      <img class="icon small empty" src="#" />
+                    </div>
+                  </div>
+                  <div class="tree-item__right">
+                    <span class="tree-item__text">Trash</span>
+                    <span class="tree-item__size">14.1 MB</span>
+                  </div>
+                </div><!-- end tree-item -->
+              </li>
+              <li class="list__el">
+                <div class="tree-item">
+                  <div class="tree-item__left">
+                    <div class="tree-item__checkbox">
+                      <div class="checkbox">
+                        <label class="checkbox__label">
+                          <input class="checkbox__input" type="checkbox" />
+                          <span class="checkbox__el"></span>
+                        </label>
+                      </div>
+                    </div>
+                    <div class="tree-item__icon">
+                      <img class="icon small empty" src="#" />
+                    </div>
+                  </div>
+                  <div class="tree-item__right">
+                    <span class="tree-item__text">Mail Attachments</span>
+                    <span class="tree-item__size">12 KB</span>
+                  </div>
+                </div><!-- end tree-item -->
+              </li>
+              <li class="list__el">
+                <div class="tree-item">
+                  <div class="tree-item__left">
+                    <div class="tree-item__checkbox">
+                      <div class="checkbox">
+                        <label class="checkbox__label">
+                          <input class="checkbox__input" type="checkbox" />
+                          <span class="checkbox__el"></span>
+                        </label>
+                      </div>
+                    </div>
+                    <div class="tree-item__icon">
+                      <img class="icon small empty" src="#" />
+                    </div>
+                  </div>
+                  <div class="tree-item__right">
+                    <span class="tree-item__text">iOS Junk Files</span>
+                    <span class="tree-item__size">4.5 GB</span>
+                  </div>
+                </div><!-- end tree-item -->
+              </li>
+            </ul>
+          </div>
+          <div class="section__right">
+            <ul class="list tree-items">
+              <li class="list__el">
+                <div class="tree-item">
+                  <div class="tree-item__left">
+                    <span class="arrow folder"></span>
+                    <div class="tree-item__checkbox">
+                      <div class="checkbox">
+                        <label class="checkbox__label">
+                          <input class="checkbox__input" type="checkbox" />
+                          <span class="checkbox__el"></span>
+                        </label>
+                      </div>
+                    </div>
+                    <div class="tree-item__icon">
+                      <img class="icon small" src="img/icon_performance.svg" alt="#"/>
+                    </div>
+                  </div>
+                  <div class="tree-item__right">
+                    <span class="tree-item__text">Zeplin.app Cache</span>
+                    <button class="tree-item__btn" type="button" name="button"></button><!--Visible on hover or select-->
+                    <span class="tree-item__size">1.05 GB</span>
+                  </div>
+                </div><!-- end tree-item -->
+              </li>
+              <li class="list__el">
+                <div class="tree-item">
+                  <div class="tree-item__left">
+                    <span class="arrow folder open"></span>
+                    <div class="tree-item__checkbox">
+                      <div class="checkbox">
+                        <label class="checkbox__label">
+                          <input class="checkbox__input" type="checkbox" />
+                          <span class="checkbox__el"></span>
+                        </label>
+                      </div>
+                    </div>
+                    <div class="tree-item__icon">
+                      <img class="icon small empty" src="#" />
+                    </div>
+                  </div>
+                  <div class="tree-item__right">
+                    <span class="tree-item__text">iTunes.app Cache</span>
+                    <span class="tree-item__size">670.9 MB</span>
+                  </div>
+                </div><!-- end tree-item -->
+              </li>
+              <li class="list__el">
+                <div class="tree-item">
+                  <div class="tree-item__left">
+                    <span class="arrow"></span>
+                    <div class="tree-item__checkbox">
+                      <div class="checkbox">
+                        <label class="checkbox__label">
+                          <input class="checkbox__input" type="checkbox" />
+                          <span class="checkbox__el"></span>
+                        </label>
+                      </div>
+                    </div>
+                    <div class="tree-item__icon">
+                      <img class="icon small empty" src="#" />
+                    </div>
+                  </div>
+                  <div class="tree-item__right">
+                    <span class="tree-item__text">Spotify.app Cache</span>
+                    <span class="tree-item__size">597.7 MB</span>
+                  </div>
+                </div><!-- end tree-item -->
+              </li>
+              <li class="list__el">
+                <div class="tree-item">
+                  <div class="tree-item__left">
+                    <span class="arrow folder open"></span>
+                    <div class="tree-item__checkbox">
+                      <div class="checkbox">
+                        <label class="checkbox__label">
+                          <input class="checkbox__input" type="checkbox" />
+                          <span class="checkbox__el"></span>
+                        </label>
+                      </div>
+                    </div>
+                    <div class="tree-item__icon">
+                      <img class="icon small empty" src="#"/>
+                    </div>
+                  </div>
+                  <div class="tree-item__right">
+                    <span class="tree-item__text">Safari.app Cache</span>
+                    <span class="tree-item__size">574.4 MB</span>
+                  </div>
+                </div><!-- end tree-item -->
+              </li>
+              <li class="list__el">
+                <div class="tree-item">
+                  <div class="tree-item__left">
+                    <span class="arrow"></span>
+                    <div class="tree-item__checkbox">
+                      <div class="checkbox">
+                        <label class="checkbox__label">
+                          <input class="checkbox__input" type="checkbox" />
+                          <span class="checkbox__el"></span>
+                        </label>
+                      </div>
+                    </div>
+                    <div class="tree-item__icon">
+                      <img class="icon small empty" src="#" />
+                    </div>
+                  </div>
+                  <div class="tree-item__right">
+                    <span class="tree-item__text">Google</span>
+                    <span class="tree-item__size">276.1 MB</span>
+                  </div>
+                </div><!-- end tree-item -->
+              </li>
+            </ul>
+          </div>
+        </section>
+      </div><!-- end main -->
+      <div class="footer">
+        <div class="footer__left">
+          <div class="junk-files">
+            <span class="junk-files__select"><span class="junk-files__size">8.59 GB</span> selected</span>
+            <span class="junk-files__quantity">954 files</span>
+          </div>
+        </div>
+        <div class="footer__right">
+          <button class="button" type="submit">Activate and Clean</button>
+        </div>
+      </div><!-- end  footer -->
     </div>
-  </div>
-  <section class="section width">
-    <div class="section__left">
-      <ul class="list">
-        <li class="list__el">
-          <div class="tree-item">
-            <div class="tree-item__left">
-              <div class="tree-item__checkbox">
-                <div class="checkbox">
-                  <label class="checkbox__label">
-                    <input class="checkbox__input" type="checkbox" />
-                    <span class="checkbox__el"></span>
-                  </label>
-                </div>
-              </div>
-              <div class="tree-item__icon">
-                <img class="icon small empty" src="#" />
-              </div>
-            </div>
-            <div class="tree-item__right">
-              <span class="tree-item__text">Caches</span>
-              <span class="tree-item__size red">2.28 GB</span>
-            </div>
-          </div><!-- end tree-item -->
-        </li>
-        <li class="list__el">
-          <div class="tree-item">
-            <div class="tree-item__left">
-              <div class="tree-item__checkbox">
-                <div class="checkbox">
-                  <label class="checkbox__label">
-                    <input class="checkbox__input" type="checkbox" />
-                    <span class="checkbox__el"></span>
-                  </label>
-                </div>
-              </div>
-              <div class="tree-item__icon">
-                <img class="icon small empty" src="#" />
-              </div>
-            </div>
-            <div class="tree-item__right">
-              <span class="tree-item__text">Logs</span>
-              <span class="tree-item__size red">892.4 MB</span>
-            </div>
-          </div><!-- end tree-item -->
-        </li>
-        <li class="list__el">
-          <div class="tree-item">
-            <div class="tree-item__left">
-              <div class="tree-item__checkbox">
-                <div class="checkbox">
-                  <label class="checkbox__label">
-                    <input class="checkbox__input" type="checkbox" />
-                    <span class="checkbox__el"></span>
-                  </label>
-                </div>
-              </div>
-              <div class="tree-item__icon">
-                <img class="icon small empty" src="#" />
-              </div>
-            </div>
-            <div class="tree-item__right">
-              <span class="tree-item__text">Unused Languages</span>
-              <span class="tree-item__size red">57.2 MB</span>
-            </div>
-          </div><!-- end tree-item -->
-        </li>
-        <li class="list__el">
-          <div class="tree-item">
-            <div class="tree-item__left">
-              <div class="tree-item__checkbox">
-                <div class="checkbox">
-                  <label class="checkbox__label">
-                    <input class="checkbox__input" type="checkbox" />
-                    <span class="checkbox__el"></span>
-                  </label>
-                </div>
-              </div>
-              <div class="tree-item__icon">
-                <img class="icon small empty" src="#" />
-              </div>
-            </div>
-            <div class="tree-item__right">
-              <span class="tree-item__text">Trash</span>
-              <span class="tree-item__size red">14.1 MB</span>
-            </div>
-          </div><!-- end tree-item -->
-        </li>
-        <li class="list__el">
-          <div class="tree-item">
-            <div class="tree-item__left">
-              <div class="tree-item__checkbox">
-                <div class="checkbox">
-                  <label class="checkbox__label">
-                    <input class="checkbox__input" type="checkbox" />
-                    <span class="checkbox__el"></span>
-                  </label>
-                </div>
-              </div>
-              <div class="tree-item__icon">
-                <img class="icon small empty" src="#" />
-              </div>
-            </div>
-            <div class="tree-item__right">
-              <span class="tree-item__text">Mail Attachments</span>
-              <span class="tree-item__size red">12 KB</span>
-            </div>
-          </div><!-- end tree-item -->
-        </li>
-        <li class="list__el">
-          <div class="tree-item">
-            <div class="tree-item__left">
-              <div class="tree-item__checkbox">
-                <div class="checkbox">
-                  <label class="checkbox__label">
-                    <input class="checkbox__input" type="checkbox" />
-                    <span class="checkbox__el"></span>
-                  </label>
-                </div>
-              </div>
-              <div class="tree-item__icon">
-                <img class="icon small empty" src="#" />
-              </div>
-            </div>
-            <div class="tree-item__right">
-              <span class="tree-item__text">iOS Junk Files</span>
-              <span class="tree-item__size red">4.5 GB</span>
-            </div>
-          </div><!-- end tree-item -->
-        </li>
-      </ul>
-    </div>
-    <div class="section__right">
-      <ul class="list">
-        <li class="list__el">
-          <div class="tree-item">
-            <div class="tree-item__general">
-              <span class="arrow folder"></span>
-              <div class="tree-item__folder-ico">
-                <img class="icon__img" src="src/img/system_junk.svg" alt="icon">
-              </div>
-              <div class="tree-item__checkbox">
-                <div class="checkbox">
-                  <label class="checkbox__label">
-                    <input class="checkbox__input" type="checkbox"/>
-                    <span class="checkbox__el"></span>
-                  </label>
-                </div>
-              </div>
-              <div class="tree-item__icon"></div>
-              <div class="tree-item__name">
-                <span class="tree-item__text">Zeplin.app Cache</span>
-                <!--<button class="tree-item__btn" type="button" name="button"></button>&lt;!&ndash;Visible on hover or select&ndash;&gt;-->
-              </div>
-              <span class="tree-item__size">1.05 GB</span>
-            </div>
-          </div><!-- end tree-item -->
-        </li>
-        <li class="list__el">
-          <div class="tree-item">
-            <div class="tree-item__general">
-              <span class="arrow folder"></span>
-              <div class="tree-item__folder-ico">
-                <img class="icon__img" src="src/img/system_junk.svg" alt="icon">
-              </div>
-              <div class="tree-item__checkbox">
-                <div class="checkbox">
-                  <label class="checkbox__label">
-                    <input class="checkbox__input" type="checkbox"/>
-                    <span class="checkbox__el"></span>
-                  </label>
-                </div>
-              </div>
-              <div class="tree-item__icon"></div>
-              <div class="tree-item__name">
-                <span class="tree-item__text">Zeplin.app Cache</span>
-                <!--<button class="tree-item__btn" type="button" name="button"></button>&lt;!&ndash;Visible on hover or select&ndash;&gt;-->
-              </div>
-              <span class="tree-item__size">1.05 GB</span>
-            </div>
-          </div><!-- end tree-item -->
-        </li>
-        <li class="list__el">
-          <div class="tree-item">
-            <div class="tree-item__general">
-              <span class="arrow folder"></span>
-              <div class="tree-item__folder-ico">
-                <img class="icon__img" src="src/img/system_junk.svg" alt="icon">
-              </div>
-              <div class="tree-item__checkbox">
-                <div class="checkbox">
-                  <label class="checkbox__label">
-                    <input class="checkbox__input" type="checkbox"/>
-                    <span class="checkbox__el"></span>
-                  </label>
-                </div>
-              </div>
-              <div class="tree-item__icon"></div>
-              <div class="tree-item__name">
-                <span class="tree-item__text">Zeplin.app Cache</span>
-                <!--<button class="tree-item__btn" type="button" name="button"></button>&lt;!&ndash;Visible on hover or select&ndash;&gt;-->
-              </div>
-              <span class="tree-item__size">1.05 GB</span>
-            </div>
-          </div><!-- end tree-item -->
-        </li>
-        <li class="list__el">
-          <div class="tree-item">
-            <div class="tree-item__general">
-              <span class="arrow folder"></span>
-              <div class="tree-item__folder-ico">
-                <img class="icon__img" src="src/img/system_junk.svg" alt="icon">
-              </div>
-              <div class="tree-item__checkbox">
-                <div class="checkbox">
-                  <label class="checkbox__label">
-                    <input class="checkbox__input" type="checkbox"/>
-                    <span class="checkbox__el"></span>
-                  </label>
-                </div>
-              </div>
-              <div class="tree-item__icon"></div>
-              <div class="tree-item__name">
-                <span class="tree-item__text">Zeplin.app Cache</span>
-                <!--<button class="tree-item__btn" type="button" name="button"></button>&lt;!&ndash;Visible on hover or select&ndash;&gt;-->
-              </div>
-              <span class="tree-item__size">1.05 GB</span>
-            </div>
-          </div><!-- end tree-item -->
-        </li>
-        <li class="list__el">
-          <div class="tree-item">
-            <div class="tree-item__general">
-              <span class="arrow folder"></span>
-              <div class="tree-item__folder-ico">
-                <img class="icon__img" src="src/img/system_junk.svg" alt="icon">
-              </div>
-              <div class="tree-item__checkbox">
-                <div class="checkbox">
-                  <label class="checkbox__label">
-                    <input class="checkbox__input" type="checkbox"/>
-                    <span class="checkbox__el"></span>
-                  </label>
-                </div>
-              </div>
-              <div class="tree-item__icon"></div>
-              <div class="tree-item__name">
-                <span class="tree-item__text">Zeplin.app Cache</span>
-                <!--<button class="tree-item__btn" type="button" name="button"></button>&lt;!&ndash;Visible on hover or select&ndash;&gt;-->
-              </div>
-              <span class="tree-item__size">1.05 GB</span>
-            </div>
-          </div><!-- end tree-item -->
-        </li>
-        <li class="list__el">
-          <div class="tree-item">
-            <div class="tree-item__general">
-              <span class="arrow folder"></span>
-              <div class="tree-item__folder-ico">
-                <img class="icon__img" src="src/img/system_junk.svg" alt="icon">
-              </div>
-              <div class="tree-item__checkbox">
-                <div class="checkbox">
-                  <label class="checkbox__label">
-                    <input class="checkbox__input" type="checkbox"/>
-                    <span class="checkbox__el"></span>
-                  </label>
-                </div>
-              </div>
-              <div class="tree-item__icon"></div>
-              <div class="tree-item__name">
-                <span class="tree-item__text">Zeplin.app Cache</span>
-                <!--<button class="tree-item__btn" type="button" name="button"></button>&lt;!&ndash;Visible on hover or select&ndash;&gt;-->
-              </div>
-              <span class="tree-item__size">1.05 GB</span>
-            </div>
-          </div><!-- end tree-item -->
-        </li>
-      </ul>
-    </div>
-  </section>
-  <div class="footer">
-    <div class="footer__left">
-      <div class="info">
-        <span class="info__title">Mac system status is Critical</span>
-        <span class="info__descr">Repair is highly recommended to improve your Mac performance and security.</span>
-      </div>
-    </div>
-    <div class="footer__right">
-      <button class="button" type="submit">Activate and Fix</button>
-    </div>
-  </div>
-</div>
+  </div><!-- end app -->
 </body>
 </html>

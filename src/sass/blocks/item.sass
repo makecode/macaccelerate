@@ -1,39 +1,10 @@
-//.list
-//  padding: 0 30px
-//
-//  &__el
-//    position: relative
-//    display: flex
-//    justify-content: space-between
-//    align-items: center
-//
-//    &::after
-//      position: absolute
-//      content: ''
-//      width: calc(100% - 94px)
-//      right: 0
-//      bottom: 0
-//      border-bottom: 1px solid #E3E4E7
-//
-//    &:last-child
-//      &::after
-//        border-bottom: none
-//
-//  &__status
-//  width: 385px
-//
-//  //.item
-//  //  margin-right: 30px
-//  //  width: 52%
-//  //.status
-//  //  width: 48%
-//  .bar
-//    width: 100%
-//
 .item
-  padding: 20px 0
+  padding: 20px 30px
   display: flex
   flex-direction: row
+  box-sizing: border-box
+  &:last-child
+    padding-bottom: 0
 
   &__icon
     line-height: 0
@@ -46,68 +17,104 @@
     flex-direction: row
     align-items: center
     flex-basis: 100%
-    border-bottom: 1px solid #E3E4E7
+    border-bottom: 1px solid $borderGrey
+
+    &:last-child
+      border-bottom: none
 
   &__info
+    padding-right: 30px
     width: 48%
     display: flex
     flex-direction: column
+    box-sizing: border-box
 
   &__status
     width: 52%
 
   &__title
     font-size: 17px
-    color: #313235
+    opacity: 0.95
     text-transform: capitalize
     letter-spacing: 0.2px
     line-height: 22px
     +SFProDisplaySemibold
 
+    &.fz-20
+      font-size: 20px
+
   &__size
     font-size: 17px
     +SFProDisplaySemibold
 
-//  &__scan
-//    font-size: 20px
-//    color: #313235
-//    +SFProDisplaySemibold
-//
-//  &__percent
-//    font-size: 20px
-//    color: #0D9CE9
-//    +SFProDisplaySemibold
-//
-//  &__description
-//    font-size: 13px
-//    color: #545457
-//
+  &__details
+    margin-top: 10px
+    text-align: right
+    cursor: pointer
 
-//
-//    &.green
-//      color: #68C15E
-//
-//    &.orange
-//      color: #F1A239
-//
-//    &.red
-//      color: #EA453C
-//
-//  &.column
-//    flex-direction: column
-//    text-align: center
-//
-//    .item__info
-//      margin-top: 12px
-//      margin-left: 0
-//
-//    .item__img
-//      margin-bottom: 30px
-//
-//    .item__title
-//      font-size: 20px
-//      +SFProDisplaySemibold
-//
-//    .item__description
-//      display: inline-block
-//      margin: 5px 0
+  &__description
+    font-size: 13px
+    opacity: 0.75
+    letter-spacing: -0.1px
+
+  &__button
+    padding: 0
+    border: none
+    background-color: transparent
+    color: $blue
+    +SFProDisplaySemibold
+
+  &__scan
+    font-size: 20px
+    color: #313235
+    +SFProDisplaySemibold
+
+  &__percent
+    font-size: 20px
+    color: #0D9CE9
+    +SFProDisplaySemibold
+
+  &.green
+    .item__size
+      color: $green
+    .bar__el,
+    .label:first-child
+      color: #ffffff
+      background-color: $green
+
+  &.orange
+    .item__size
+      color: $orange
+    .bar__el,
+    .label:nth-child(2)
+      color: #ffffff
+      background-color: $orange
+
+  &.red
+    .item__size
+      color: $red
+    .bar__el,
+    .label:last-child
+      color: #ffffff
+      background-color: $red
+
+  &.column
+    display: inline-flex
+    flex-direction: column
+    text-align: center
+
+    .item__info
+      width: auto
+      margin-top: 12px
+      margin-left: 0
+
+    .item__img
+      margin-bottom: 30px
+
+    .item__title
+      font-size: 20px
+      +SFProDisplaySemibold
+
+    .item__description
+      display: inline-block
+      margin: 5px 0

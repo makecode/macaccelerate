@@ -3,10 +3,13 @@
 +font(sf-pro-display-bold, sf-pro-display-bold)
 +font(sf-pro-display-semibold, sf-pro-display-semibold)
 +font(sf-pro-text-regular, sf-pro-text-regular)
++font(sf-pro-text-medium, sf-pro-text-medium)
 +font(sf-pro-text-bold, sf-pro-text-bold)
 
 =SFProText
   font-family: 'sf-pro-text-regular', Helvetica, Arial, sans-serif
+=SFProTextMedium
+  font-family: 'sf-pro-text-medium', Helvetica, Arial, sans-serif
 =SFProTextBold
   font-family: 'sf-pro-text-bold', Helvetica, Arial, sans-serif
 =SFProDisplay
@@ -24,17 +27,6 @@ body
   font-size: 13px
   line-height: 1.4
   +SFProText
-
-.atoms
-  width: 860px
-  margin: 0 auto
-  background-color: #fff
-
-.atom
-  position: relative
-  padding: 20px
-  margin: 20px auto
-  border: 1px solid #f2f2f2
 
 .title
   color: #1c1c1f
@@ -62,18 +54,6 @@ body
   margin: 20px 0
   text-align: right
 
-.info
 
-  &__title
-    font-size: 20px
-    letter-spacing: 0.3px
-    color: $red
-    +SFProDisplaySemibold
 
-  &__descr
-    display: inline-block
 
-.scanning
-  display: flex
-  justify-content: space-between
-  align-items: center

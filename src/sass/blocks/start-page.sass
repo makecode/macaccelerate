@@ -1,19 +1,23 @@
 .start-page
+  position: relative
   padding-top: 70px
   padding-bottom: 10px
-  height: 100vh
+  height: 100%
   display: flex
   flex-direction: column
   text-align: center
-  background-color: #F8F9F8
+  align-items: center
+  background-color: rgba($dark, 0.07)
 
-  &__el
+  &__picture
     display: inline-block
     width: 256px
     height: 256px
-    background-color: #C7C8CE
+    background-color: $dark
+    opacity: 0.25
 
   &__title
+    max-width: 600px
     margin-top: 30px
     margin-bottom: 20px
     font-size: 22px
@@ -29,9 +33,10 @@
     margin-top: 30px
 
   &__version
-    position: fixed
-    bottom: 0
+    position: absolute
+    bottom: 10px
     left: 50%
     transform: translateX(-50%)
-    color: #8D8D8F
+    color: $dark
+    opacity: 0.5
     letter-spacing: -0.1px

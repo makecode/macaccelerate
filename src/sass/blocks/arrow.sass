@@ -1,5 +1,5 @@
 .arrow
-  display: none
+  visibility: hidden
   width: 0
   height: 0
   border-style: solid
@@ -8,7 +8,7 @@
   transition: $transitionDefault
 
   &.folder
-    display: block
+    visibility: visible
 
   &.open
-    transform: rotate(90deg)
+    transform: rotate(-90deg)
