@@ -1,0 +1,37 @@
+.popup-payment
+  position: relative
+
+  &__head
+    position: relative
+    display: flex
+    justify-content: center
+    align-items: center
+    height: 84px
+    line-height: 84px
+
+  &__btn-close
+    display: inline-block
+    position: absolute
+    top: 50%
+    right: 0
+    transform: translate(-50%)
+    width: 15px
+    height: 15px
+    cursor: pointer
+    background-image: url(/img/icon_close.svg)
+
+  &__title
+    margin-right: 7px
+    font-size: 20px
+    +SFProDisplaySemibold
+
+  &__content
+    padding: 0 30px
+    background-color: #F4F4F5
+
+  .modal
+    position: absolute
+    top: 0
+    left: 50%
+    transform: translate(-50%)
+    z-index: 100

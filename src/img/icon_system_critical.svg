@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="256px" height="256px" viewBox="0 0 256 256" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.4 (67378) - http://www.bohemiancoding.com/sketch -->
+    <title>System Status - Critical</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M12,0 C5.373,0 0,5.373 0,12 L0,152 L256,152 L256,12 C256,5.373 250.627,0 244,0 L12,0 Z" id="path-1"></path>
+        <linearGradient x1="64.7704244%" y1="121.595819%" x2="34.4410986%" y2="-18.7479873%" id="linearGradient-3">
+            <stop stop-color="#FF2F2F" offset="0%"></stop>
+            <stop stop-color="#FF4931" offset="100%"></stop>
+        </linearGradient>
+        <polygon id="path-4" points="0 256 256 256 256 0 0 0"></polygon>
+        <linearGradient x1="50%" y1="100%" x2="50%" y2="-0.00312509766%" id="linearGradient-6">
+            <stop stop-color="#B8D1F9" offset="0%"></stop>
+            <stop stop-color="#A5BAFD" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="System-Status---Critical" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-28">
+            <polygon id="Fill-1" points="0 256 256 256 256 0 0 0"></polygon>
+            <polygon id="Fill-2" points="12 244 244 244 244 12 12 12"></polygon>
+            <path d="M244,218 L12,218 C5.373,218 0,212.627 0,206 L0,44 C0,37.373 5.373,32 12,32 L244,32 C250.627,32 256,37.373 256,44 L256,206 C256,212.627 250.627,218 244,218" id="Fill-3" fill="#C1D7FD"></path>
+            <g id="Group-7" transform="translate(0.000000, 32.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Clip-6"></g>
+                <path d="M12,0 C5.373,0 0,5.373 0,12 L0,152 L256,152 L256,12 C256,5.373 250.627,0 244,0 L12,0 Z" id="Fill-5" fill="url(#linearGradient-3)" mask="url(#mask-2)"></path>
+            </g>
+            <g id="Group-12">
+                <path d="M244,32 L12,32 C5.373,32 0,37.373 0,44 L0,184 L256,184 L256,44 C256,37.373 250.627,32 244,32 Z M12,172 L244,172 L244,44 L12,44 L12,172 Z" id="Fill-8" fill="#000000" opacity="0.5" style="mix-blend-mode: multiply;"></path>
+                <mask id="mask-5" fill="white">
+                    <use xlink:href="#path-4"></use>
+                </mask>
+                <g id="Clip-11"></g>
+                <polygon id="Fill-10" fill="#C1D7FD" mask="url(#mask-5)" points="71 256 183 256 183 250 71 250"></polygon>
+            </g>
+            <polygon id="Fill-13" fill="url(#linearGradient-6)" points="92 250 164 250 164 218.001 92 218.001"></polygon>
+            <g id="Group-27" opacity="0.75" style="mix-blend-mode: multiply;" transform="translate(83.000000, 78.000000)">
+                <g id="Group-21" transform="translate(9.000000, 21.000000)" fill="#000000">
+                    <path d="M7,0 C3.134,0 0,4.478 0,10 C0,15.522 3.134,20 7,20 C10.866,20 14,15.522 14,10 C14,4.478 10.866,0 7,0" id="Fill-15"></path>
+                    <path d="M65,0 C61.134,0 58,4.478 58,10 C58,15.522 61.134,20 65,20 C68.866,20 72,15.522 72,10 C72,4.478 68.866,0 65,0" id="Fill-17"></path>
+                    <path d="M36,32 C23.533,32 13.129,39.428 10.599,49.336 C17.967,47.225 26.67,46 36,46 C45.33,46 54.033,47.225 61.401,49.336 C58.871,39.428 48.467,32 36,32" id="Fill-19"></path>
+                </g>
+                <g id="Group-26" stroke="#000000">
+                    <path d="M18,0.2891 C11.257,1.0351 5.094,3.6571 0,7.6021" id="Stroke-22"></path>
+                    <path d="M70,0.2891 C76.743,1.0351 82.906,3.6571 88,7.6021" id="Stroke-24"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

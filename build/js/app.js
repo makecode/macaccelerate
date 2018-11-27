@@ -2285,21 +2285,45 @@ var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol
 $(document).ready(function () {
   console.log('run script');
 
-  // Change checkbox status on click
+  // Change simple checkbox status on click
   $('.checkbox').map(function (index, checkbox) {
-    $(checkbox).on('click', function (evt) {
-      evt.stopPropagation();
-      evt.preventDefault();
-
-      var isChecked = $(checkbox).hasClass('checked');
-
-      if (isChecked) {
-        $(checkbox).removeClass('checked');
-        $(checkbox).find('input:checkbox:first').removeAttr('checked');
-      } else {
-        $(checkbox).addClass('checked');
-        $(checkbox).find('input:checkbox:first').attr('checked', true);
-      }
+    $(checkbox).on('click', function (event) {
+      return onCheckboxClick(event, checkbox);
     });
   });
+
+  // Change .plan active status
+  $('.plan').map(function (index, el) {
+    $(el).click(function () {
+      return onPlanClick(el);
+    });
+  });
+
+  // other events
+  var $popup = $('#popup_activate');
+  var $btnClose = $('#btn-close');
+
+  $btnClose.click(function () {
+    $($popup).addClass('hide');
+  });
 });
+
+function onCheckboxClick(evt, checkbox) {
+  evt.stopPropagation();
+  evt.preventDefault();
+
+  var isChecked = $(checkbox).hasClass('checked');
+
+  if (isChecked) {
+    $(checkbox).removeClass('checked');
+    $(checkbox).find('input:checkbox:first').removeAttr('checked');
+  } else {
+    $(checkbox).addClass('checked');
+    $(checkbox).find('input:checkbox:first').attr('checked', true);
+  }
+}
+
+function onPlanClick(el) {
+  $('.plan.active').removeClass('active');
+  $(el).addClass('active');
+}

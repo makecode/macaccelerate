@@ -24,13 +24,16 @@
 
   &__info
     padding-right: 30px
-    width: 48%
+    width: 360px
     display: flex
     flex-direction: column
     box-sizing: border-box
 
   &__status
     width: 52%
+
+  &__result
+    text-align: right
 
   &__title
     font-size: 17px
@@ -46,6 +49,9 @@
   &__size
     font-size: 17px
     +SFProDisplaySemibold
+
+    &.red
+      color: $red
 
   &__details
     margin-top: 10px
@@ -121,3 +127,9 @@
     .item__description
       display: inline-block
       margin: 5px 0
+
+    .item__size
+      opacity: .95
+      letter-spacing: 0.3px
+      font-size: 20px
+      +SFProDisplaySemibold

@@ -10,9 +10,17 @@
   background-color: $blue
   border-color: $blue
   border-radius: 5px
+  border-style: none
   cursor: pointer
   box-sizing: border-box
+  transition: all .3s ease-in-out
   +SFProTextMedium
+
+  &:hover,
+  &:active
+    border-style: none
+    border-color: $blueHover
+    background-color: $blueHover
 
   &.small
     width: 108px
@@ -39,7 +47,20 @@
     font-size: 13px
     color: $blue
 
+  &.full
+    width: 100%
+
+  &.blue
+    background-color: $blue
+    border-color: $blue
+
+  &.green
+    background-color: $green
+    border-color: $green
+
   &.grey
     line-height: 0
     background-color: #f0f1f1
     border-color: #f0f1f1
+    &:hover
+      background-color: #F4F4F5

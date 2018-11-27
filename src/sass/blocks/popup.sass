@@ -1,0 +1,68 @@
+.popup
+  text-align: center
+
+  &__header
+    position: relative
+    display: flex
+    justify-content: center
+    align-items: center
+    height: 84px
+    line-height: 84px
+
+  &__btn-close
+    display: inline-block
+    position: absolute
+    top: 50%
+    right: 0
+    transform: translate(-50%)
+    width: 15px
+    height: 15px
+    cursor: pointer
+
+    &::after,
+    &::before
+      position: absolute
+      content: ''
+      top: 5px
+      right: 0
+      width: 15px
+      height: 2px
+      background-color: #C7C6C8
+
+    &::after
+      transform: rotate(45deg)
+
+    &::before
+      transform: rotate(-45deg)
+
+  &__title
+    margin-right: 7px
+    font-size: 20px
+    +SFProDisplaySemibold
+
+  &__content
+    padding: 30px 30px 80px
+    background-color: #F4F4F5
+    border-top: 1px solid $borderGrey
+    border-bottom: 1px solid $borderGrey
+
+  &__footer
+    padding: 20px 30px
+
+  &__action
+    padding-bottom: 20px
+    border-bottom: 1px solid $borderGrey
+
+  &__guarantee
+    display: flex
+    align-items: center
+
+  &.hide
+    display: none
+
+.payment
+  padding: 15px 0
+  display: flex
+  flex-direction: row
+  justify-content: space-between
+  align-items: center

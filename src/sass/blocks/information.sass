@@ -1,0 +1,27 @@
+.information
+  display: flex
+  flex-direction: column
+  text-align: left
+
+  &__title
+    font-size: 20px
+    +SFProDisplaySemibold
+
+  &__cost
+    opacity: .75
+    +SFProTextSemibold
+
+  &__secure
+    position: relative
+    padding-left: 20px
+    color: #525154
+
+    &:before
+      position: absolute
+      content: ''
+      top: 0
+      left: 0
+      width: 16px
+      height: 16px
+      background: url("../img/icon_privacy.svg") center no-repeat
+      background-size: contain

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.4 (67378) - http://www.bohemiancoding.com/sketch -->
+    <title>Buyer Protection</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="0%" x2="100%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#43E4A3" offset="0%"></stop>
+            <stop stop-color="#20C46A" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Buyer-Protection" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g>
+            <rect id="Rectangle" x="0" y="0" width="40" height="40"></rect>
+            <path d="M19.9756,37.9795 C19.3176,37.8935 3.9996,35.5795 3.9996,6.8145 L3.9996,6.6995 L19.9996,2.0825 L35.9996,6.6995 L35.9996,6.8145 C35.9996,35.5795 20.6826,37.8935 20.0306,37.9785 L19.9996,37.9825 L19.9756,37.9795 Z" id="Fill-3" fill="url(#linearGradient-1)"></path>
+            <path d="M20,0 L2,5.194 L2,6.814 C2,37.313 18.99,39.868 19.713,39.963 L20,40 L20.287,39.963 C21.01,39.868 38,37.313 38,6.814 L38,5.194 L20,0 Z M20,4.163 L33.988,8.199 C33.553,32.17 21.872,35.564 20.001,35.954 C18.108,35.559 6.446,32.149 6.012,8.199 L20,4.163 Z" id="Fill-5" fill="#1C71A5"></path>
+            <polygon id="Fill-7" fill="#FFFFFF" points="19.4067 24.9424 12.8027 18.3384 14.8977 16.2434 19.4067 20.7524 29.1017 11.0574 31.1977 13.1524"></polygon>
+        </g>
+    </g>
+</svg>

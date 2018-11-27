@@ -6,6 +6,8 @@
 +font(sf-pro-text-medium, sf-pro-text-medium)
 +font(sf-pro-text-bold, sf-pro-text-bold)
 +font(sf-pro-text-semibold, sf-pro-text-semibold)
++font(sf-pro-text-heavy, sf-pro-text-heavy)
++font(sf-pro-text-medium, sf-pro-text-medium)
 
 =SFProText
   font-family: 'sf-pro-text-regular', Helvetica, Arial, sans-serif
@@ -21,6 +23,10 @@
   font-family: 'sf-pro-display-bold', Helvetica, Arial, sans-serif
 =SFProDisplaySemibold
   font-family: 'sf-pro-display-semibold', Helvetica, Arial, sans-serif
+=SFProDisplayHeavy
+  font-family: 'sf-pro-display-heavy', Helvetica, Arial, sans-serif
+=SFProDisplayMedium
+  font-family: 'sf-pro-display-medium', Helvetica, Arial, sans-serif
 
 body
   display: flex
@@ -30,6 +36,10 @@ body
   font-size: 13px
   line-height: 1.4
   +SFProText
+
+button:focus
+  outline: none
+  cursor: pointer
 
 .title
   color: #1c1c1f
@@ -49,6 +59,22 @@ body
   margin: 20px 0
   text-align: right
 
+.rating
+  display: flex
+  flex-direction: column
 
+.guarantee
 
+  &__list
+    display: flex
+    flex-direction: row
+    align-items: center
 
+.cost
+  opacity: .5
+  letter-spacing: -0.1px
+  line-height: 1.23
+  +SFProTextSemibold
+
+.atom
+  margin-bottom: 20px

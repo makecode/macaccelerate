@@ -5,6 +5,7 @@
   width: 100%
   background-color: #ffffff
   box-sizing: border-box
+  transition: all .3s ease-in-out
 
   &__left
     display: inline-flex
@@ -63,8 +64,9 @@
     transform: translateY(-50%)
     transform-origin: center
 
+  &:hover,
   &.selected
-    background-color: rgba($dark, 0.1)
+    background-color: $borderGrey
 
     .tree-item__btn
       display: inline-block

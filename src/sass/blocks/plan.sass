@@ -1,0 +1,88 @@
+.plan
+  position: relative
+  padding: 20px
+  width: 220px
+  height: 170px
+  border: 1px solid #DDDCDE
+  background-color: #fff
+  transition: all .3s ease-in-out
+  box-sizing: border-box
+  cursor: pointer
+
+  &__head
+    position: relative
+
+    .radio
+      position: absolute
+      top: 0
+      right: 0
+
+  &__quantity
+    display: block
+    margin-bottom: 20px
+    font-size: 15px
+    +SFProDisplaySemibold
+
+  &__price
+    display: block
+    font-size: 34px
+    +SFProDisplaySemibold
+
+  &__month
+    opacity: .95
+    letter-spacing: -0.1px
+    +SFProTextSemibold
+
+  &__discount
+    margin-top: 20px
+    display: block
+    color: $green
+    opacity: .95
+    font-size: 15px
+    letter-spacing: -0.2px
+    +SFProDisplayBold
+
+  &__label
+    display: inline-block
+    white-space: nowrap
+    padding: 0 18px
+    height: 28px
+    line-height: 28px
+    color: #FFFFFF
+    background-color: $blue
+    position: absolute
+    top: -10px
+    left: 50%
+    transform: translate(-50%)
+    +SFProTextSemibold
+
+    &.green
+      background-color: $green
+
+  &.active
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.15)
+    border-color: #4294E2
+
+    .radio__el
+      border-color: $blue
+      background-color: $blue
+
+      &::after
+        position: absolute
+        top: 50%
+        left: 50%
+        content: ''
+        width: 100%
+        height: 100%
+        transform: translate(-50%, -50%)
+        background: url('../img/icon_checked.svg') center no-repeat
+
+  &.general
+    width: 240px
+    height: 190px
+
+  .message
+    position: absolute
+    bottom: -11px
+    left: 0
+    transform: translateY(100%)

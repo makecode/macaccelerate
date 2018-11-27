@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="256px" height="256px" viewBox="0 0 256 256" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>System Status - Default</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0 256 256 256 256 0 0 0"></polygon>
+        <linearGradient x1="50%" y1="100%" x2="50%" y2="-0.00312509766%" id="linearGradient-3">
+            <stop stop-color="#B8D1F9" offset="0%"></stop>
+            <stop stop-color="#8CAAF9" offset="100%"></stop>
+        </linearGradient>
+        <path d="M12,0 C5.373,0 0,5.373 0,12 L0,152 L256,152 L256,12 C256,5.373 250.628,0 244,0 L12,0 Z" id="path-4"></path>
+        <linearGradient x1="64.7704244%" y1="121.595819%" x2="37.3636842%" y2="-5.22421289%" id="linearGradient-6">
+            <stop stop-color="#3441AA" offset="0%"></stop>
+            <stop stop-color="#6450A7" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="System-Status---Default" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-15">
+            <g id="Group-7">
+                <path d="M244,218 L12,218 C5.373,218 0,212.627 0,206 L0,44 C0,37.373 5.373,32 12,32 L244,32 C250.627,32 256,37.373 256,44 L256,206 C256,212.627 250.627,218 244,218" id="Fill-3" fill="#C1D7FD"></path>
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Clip-6"></g>
+                <polygon id="Fill-5" fill="#C1D7FD" mask="url(#mask-2)" points="71 256 183 256 183 250 71 250"></polygon>
+            </g>
+            <polygon id="Fill-8" fill="url(#linearGradient-3)" points="92 250 164 250 164 218.001 92 218.001"></polygon>
+            <g id="Group-12" transform="translate(0.000000, 32.000000)">
+                <mask id="mask-5" fill="white">
+                    <use xlink:href="#path-4"></use>
+                </mask>
+                <g id="Clip-11"></g>
+                <path d="M12,0 C5.373,0 0,5.373 0,12 L0,152 L256,152 L256,12 C256,5.373 250.628,0 244,0 L12,0 Z" id="Fill-10" fill="url(#linearGradient-6)" mask="url(#mask-5)"></path>
+            </g>
+            <path d="M244,32 L12,32 C5.373,32 0,37.373 0,44 L0,184 L256,184 L256,44 C256,37.373 250.627,32 244,32 Z M12,172 L244,172 L244,44 L12,44 L12,172 Z" id="Fill-13" fill="#000000" opacity="0.5"></path>
+        </g>
+    </g>
+</svg>
