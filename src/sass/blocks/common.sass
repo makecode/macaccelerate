@@ -28,6 +28,10 @@
 =SFProDisplayMedium
   font-family: 'sf-pro-display-medium', Helvetica, Arial, sans-serif
 
+html
+  height: auto
+  min-height: 100%
+
 body
   display: flex
   flex-direction: column
@@ -62,19 +66,28 @@ button:focus
 .rating
   display: flex
   flex-direction: column
-
-.guarantee
-
-  &__list
-    display: flex
-    flex-direction: row
-    align-items: center
+  text-align: right
+  font-size: 11px
 
 .cost
   opacity: .5
   letter-spacing: -0.1px
   line-height: 1.23
   +SFProTextSemibold
+
+.sort
+  padding: 0 30px
+  text-align: right
+  height: 36px
+  line-height: 36px
+  border-bottom: 1px solid $borderGrey
+
+.payment
+  padding: 15px 0
+  display: flex
+  flex-direction: row
+  justify-content: space-between
+  align-items: center
 
 .sum
 
@@ -90,3 +103,9 @@ button:focus
 
 .atom
   margin-bottom: 20px
+
+.text-red
+  color: $red
+
+.text-green
+  color: $green

@@ -18,9 +18,10 @@
       &:last-child
         &::after
           border-bottom: none
+  &__el
+    .item__data
+      border-bottom: 1px solid $borderGrey
 
-  .item__data
-    border-bottom: 1px solid $borderGrey
-
-    &:last-child
+  &__el:last-child
+    .item__data
       border-bottom: none
