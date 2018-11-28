@@ -3,6 +3,7 @@
   display: flex
   flex-direction: row
   box-sizing: border-box
+
   &:last-child
     padding-bottom: 0
 
@@ -16,11 +17,8 @@
     display: flex
     flex-direction: row
     align-items: center
+    justify-content: space-between
     flex-basis: 100%
-    border-bottom: 1px solid $borderGrey
-
-    &:last-child
-      border-bottom: none
 
   &__info
     padding-right: 30px
@@ -81,6 +79,20 @@
     color: #0D9CE9
     +SFProDisplaySemibold
 
+  &__checkbox
+    display: flex
+    align-items: center
+
+    .checkbox
+      margin-right: 10px
+
+  &__progress
+    display: flex
+    align-items: center
+
+    .item__title
+      margin-left: 10px
+
   &.green
     .item__size
       color: $green
@@ -112,7 +124,7 @@
     text-align: center
 
     .item__info
-      width: auto
+      width: 320px
       margin-top: 12px
       margin-left: 0
       padding-right: 0
@@ -133,3 +145,6 @@
       letter-spacing: 0.3px
       font-size: 20px
       +SFProDisplaySemibold
+
+    .item__status
+      width: 100%
