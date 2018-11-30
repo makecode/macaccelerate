@@ -8,28 +8,9 @@
 .container
   width: 100%
 
-.section
-  display: flex
-  width: 100%
-
-  &__left
-    width: 58%
-    text-align: center
-
-  &__right
-    width: 42%
-
-  &.width
-    .section__left
-      width: 42%
-      border-right: 1px solid $borderGrey
-
-    .section__right
-      width: 58%
-
 .header
   border-bottom: 1px solid $borderGrey
-  padding-bottom: 10px
+  padding-bottom: 15px
 
   .item
     align-items: center
@@ -43,7 +24,6 @@
       margin-right: 10px
 
     &__information
-      width: 500px
       margin-left: 30px
       flex-direction: row
 
@@ -51,12 +31,15 @@
       display: block
 
 .footer
-  padding: 30px
+  height: 112px
+  //line-height: 112px
+  padding: 30px 30px
   display: flex
   justify-content: space-between
   align-items: center
   background-color: #f3f4f6
   border-top: 1px solid $borderGrey
+  box-sizing: border-box
 
   &.scaning
 
@@ -66,4 +49,7 @@
 
   &.rescan
     display: flex
+    justify-content: center
+
+  &.center
     justify-content: center

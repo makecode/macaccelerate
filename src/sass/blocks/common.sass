@@ -56,7 +56,7 @@ button:focus
     height: 36px
 
 .path
-  margin-top: 15px
+  margin-top: 20px
   opacity: 0.5
 
 .details
@@ -76,11 +76,7 @@ button:focus
   +SFProTextSemibold
 
 .sort
-  padding: 0 30px
   text-align: right
-  height: 36px
-  line-height: 36px
-  border-bottom: 1px solid $borderGrey
 
 .payment
   padding: 15px 0
@@ -89,17 +85,17 @@ button:focus
   justify-content: space-between
   align-items: center
 
-.sum
+.memory
 
-  dl
+  &__el
+    padding-top: 18px
+    padding-bottom: 19px
     display: flex
+    justify-content: space-between
+    border-bottom: 1px solid $borderGrey
 
-  dt
-    margin-right: 25px
-    width: 70px
-
-  dd
-    +SFProTextMedium
+.reviews
+  text-align: left
 
 .atom
   margin-bottom: 20px
@@ -109,3 +105,6 @@ button:focus
 
 .text-green
   color: $green
+
+.text-orange
+  color: $orange

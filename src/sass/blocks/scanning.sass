@@ -1,4 +1,5 @@
 .scanning
+  position: relative
   width: 100%
   display: flex
   justify-content: space-between
@@ -7,7 +8,11 @@
   &__bar
     width: 100%
 
-    .item__percent
-      display: inline-block
-      margin-bottom: 10px
-      margin-left: 0
+  &__percent
+    position: absolute
+    top: -38px
+    left: 0
+    display: inline-block
+    font-size: 17px
+    color: $blue
+    +SFProDisplaySemibold

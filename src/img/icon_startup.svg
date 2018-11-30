@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="256px" height="256px" viewBox="0 0 256 256" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>Startup Optimization</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M24,0 C10.745,0 0,10.745 0,24 L0,184 C0,197.255 10.745,208 24,208 L184,208 C197.255,208 208,197.255 208,184 L208,24 C208,10.745 197.255,0 184,0 L24,0 Z" id="path-1"></path>
+        <linearGradient x1="70.8079045%" y1="107.169251%" x2="29.1920919%" y2="-7.16925678%" id="linearGradient-3">
+            <stop stop-color="#46179C" offset="0%"></stop>
+            <stop stop-color="#A11DBF" offset="100%"></stop>
+        </linearGradient>
+        <polygon id="path-4" points="84.301 14.888 105.414 36 0 36 0 56 105.414 56 84.301 77.112 98.444 91.255 129.556 60.143 143.698 46 129.556 31.858 98.444 0.745"></polygon>
+        <linearGradient x1="19.7808053%" y1="7.54654558%" x2="73.2605153%" y2="92.4534881%" id="linearGradient-6">
+            <stop stop-color="#E8EBF4" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Startup-Optimization" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-13">
+            <polygon id="Fill-1" points="0 256 256 256 256 0 0 0"></polygon>
+            <polygon id="Fill-2" points="12 244 244 244 244 12 12 12"></polygon>
+            <g id="Group-5" transform="translate(24.000000, 24.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Clip-4"></g>
+                <path d="M24,0 C10.745,0 0,10.745 0,24 L0,184 C0,197.255 10.745,208 24,208 L184,208 C197.255,208 208,197.255 208,184 L208,24 C208,10.745 197.255,0 184,0 L24,0 Z" id="Fill-3" fill="url(#linearGradient-3)" mask="url(#mask-2)"></path>
+            </g>
+            <polygon id="Fill-6" fill="#000000" opacity="0.15" points="123.4438 85.3311 107.8878 100.8881 127.9998 121.0001 23.9998 121.0001 23.9998 143.0001 127.9998 143.0001 107.8878 163.1121 123.4438 178.6691 170.1118 132.0001"></polygon>
+            <g id="Group-10" transform="translate(24.000000, 82.000000)">
+                <mask id="mask-5" fill="white">
+                    <use xlink:href="#path-4"></use>
+                </mask>
+                <g id="Clip-9"></g>
+                <polygon id="Fill-8" fill="url(#linearGradient-6)" mask="url(#mask-5)" points="84.301 14.888 105.414 36 0 36 0 56 105.414 56 84.301 77.112 98.444 91.255 129.556 60.143 143.698 46 129.556 31.858 98.444 0.745"></polygon>
+            </g>
+            <path d="M208,24 L48,24 C34.745,24 24,34.745 24,48 L24,96 L36,96 L36,48 C36,41.383 41.383,36 48,36 L208,36 C214.617,36 220,41.383 220,48 L220,208 C220,214.617 214.617,220 208,220 L48,220 C41.383,220 36,214.617 36,208 L36,160 L24,160 L24,208 C24,221.255 34.745,232 48,232 L208,232 C221.255,232 232,221.255 232,208 L232,48 C232,34.745 221.255,24 208,24" id="Fill-11" fill="#E9EBF4" opacity="0.25"></path>
+        </g>
+    </g>
+</svg>

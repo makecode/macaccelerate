@@ -48,9 +48,6 @@
     font-size: 17px
     +SFProDisplaySemibold
 
-    &.red
-      color: $red
-
   &__details
     margin-top: 10px
     text-align: right
@@ -63,14 +60,16 @@
 
   &__button
     padding: 0
+    letter-spacing: -0.1px
     border: none
     background-color: transparent
     color: $blue
-    +SFProDisplaySemibold
+    +SFProTextSemibold
 
   &__scan
     font-size: 20px
     color: #313235
+    letter-spacing: 0.3px
     +SFProDisplaySemibold
 
   &__percent
@@ -118,6 +117,7 @@
       background-color: $red
 
   &.column
+    width: 360px
     padding: 0
     display: inline-flex
     flex-direction: column
@@ -125,7 +125,6 @@
     text-align: center
 
     .item__info
-      width: 320px
       margin-top: 12px
       margin-left: 0
       padding-right: 0
