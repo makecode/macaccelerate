@@ -2300,11 +2300,18 @@ $(document).ready(function () {
   });
 
   // other events
-  var $popup = $('#popup_activate');
-  var $btnClose = $('#btn-close');
+  var $popupActivate = $('#popup-activate');
+  var $btnClose = $('#btn-close-activate');
 
   $btnClose.click(function () {
-    $($popup).addClass('hide');
+    $($popupActivate).addClass('hide');
+  });
+
+  var $popupPayment = $('#popup-payment');
+  var $btnClosePayment = $('#btn-close-payment');
+
+  $btnClosePayment.click(function () {
+    $($popupPayment).addClass('hide');
   });
 });
 

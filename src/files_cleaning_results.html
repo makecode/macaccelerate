@@ -2,8 +2,8 @@
 <body>
   <div class="app">
     <div class="container">
-      <div class="section">
-        <div class="section__left">
+      <div class="main center">
+        <div class="section wide">
           <div class="item column">
             <div class="item__img">
               <img class="icon large" src="img/icon_system_junk.svg" alt="#">
@@ -14,8 +14,8 @@
               <span class="item__size red">8.59 GB</span>
             </div>
           </div><!-- end  item -->
-        </div><!-- end section__left -->
-        <div class="section__right">
+        </div><!-- end section-->
+        <div class="section">
           <ul class="list tree-items">
             <li class="list__el">
               <div class="tree-item">
@@ -26,7 +26,10 @@
                 </div>
                 <div class="tree-item__right">
                   <span class="tree-item__text">Caches</span>
-                  <span class="tree-item__size red">2.28 GB</span>
+                  <div class="tree-item__progress">
+                    <span class="tree-item__size">2.28 GB</span>
+                    <span class="icon-download"></span>
+                  </div>
                 </div>
               </div><!-- end tree-item -->
             </li>
@@ -39,7 +42,7 @@
                 </div>
                 <div class="tree-item__right">
                   <span class="tree-item__text">Logs</span>
-                  <span class="tree-item__size red">892.4 MB</span>
+                  <span class="tree-item__size">892.4 MB</span>
                 </div>
               </div><!-- end tree-item -->
             </li>
@@ -52,7 +55,7 @@
                 </div>
                 <div class="tree-item__right">
                   <span class="tree-item__text">Unused Languages</span>
-                  <span class="tree-item__size red">57.2 MB</span>
+                  <span class="tree-item__size">57.2 MB</span>
                 </div>
               </div><!-- end tree-item -->
             </li>
@@ -93,7 +96,7 @@
               </div><!-- end tree-item -->
             </li>
           </ul>
-        </div><!-- end section__right -->
+        </div><!-- end section -->
       </div><!-- end section -->
       <div class="footer rescan">
         <button class="button">Rescan</button>

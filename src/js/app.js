@@ -15,11 +15,18 @@ $( document ).ready(() => {
   });
 
   // other events
-  const $popup = $('#popup_activate');
-  const $btnClose = $('#btn-close');
+  const $popupActivate = $('#popup-activate');
+  const $btnClose = $('#btn-close-activate');
 
   $btnClose.click(function () {
-    $($popup).addClass('hide');
+    $($popupActivate).addClass('hide');
+  });
+
+  const $popupPayment = $('#popup-payment');
+  const $btnClosePayment = $('#btn-close-payment');
+
+  $btnClosePayment.click(function () {
+    $($popupPayment).addClass('hide');
   })
 
 });
