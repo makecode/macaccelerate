@@ -27,6 +27,7 @@ $iconBgDefault: #8E9BB0
   background-size: cover
 
 .icon-download
+  display: inline-block
   width: 20px
   height: 20px
 
@@ -40,9 +41,9 @@ $iconBgDefault: #8E9BB0
     border-top: 3px solid $blue
     border-radius: 50%
     box-sizing: border-box
-    animation: loadingAnim 2s linear infinite
+    animation: loading 2s linear infinite
 
-@-webkit-keyframes loadingAnim
+@-webkit-keyframes loading
   0%
     -webkit-transform: rotate(0deg)
 
@@ -50,7 +51,7 @@ $iconBgDefault: #8E9BB0
     -webkit-transform: rotate(360deg)
 
 
-@keyframes loadingAnim
+@keyframes loading
   0%
     transform: rotate(0deg)
 
@@ -68,3 +69,4 @@ $iconBgDefault: #8E9BB0
   width: 19px
   height: 17px
   background: url("/img/icon_triangle.svg") no-repeat
+

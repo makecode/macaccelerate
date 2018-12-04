@@ -10,7 +10,7 @@
 
 .header
   border-bottom: 1px solid $borderGrey
-  padding-bottom: 15px
+  //padding-bottom: 15px
 
   .item
     align-items: center
@@ -30,10 +30,29 @@
     &__description
       display: block
 
+.main
+  display: flex
+  min-height: 520px
+
+  &.column
+    width: 100%
+    min-height: auto
+    flex-direction: column
+
+  &.center
+    align-items: center
+
+  &.separator
+
+    .item__info
+      width: 45%
+
+    .item__status
+      width: 55%
+
 .footer
   height: 112px
-  //line-height: 112px
-  padding: 30px 30px
+  padding: 0 30px
   display: flex
   justify-content: space-between
   align-items: center

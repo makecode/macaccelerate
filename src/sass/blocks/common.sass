@@ -28,14 +28,12 @@
 =SFProDisplayMedium
   font-family: 'sf-pro-display-medium', Helvetica, Arial, sans-serif
 
-html
-  height: auto
+html,
+body
   min-height: 100%
 
 body
-  display: flex
-  flex-direction: column
-  min-height: 100vh
+  min-height: 100%
   color: $dark
   font-size: 13px
   line-height: 1.4
@@ -66,19 +64,12 @@ button:focus
 .rating
   display: flex
   flex-direction: column
-  text-align: right
+  align-items: flex-end
 
   &__status
     font-size: 11px
     color: #08273b
     line-height: 1.2
-
-  .row
-    .rating__status
-      display: inline
-      color: #0e253a
-      font-size: 13px
-      +SFProTextSemibold
 
 .cost
   opacity: .5
@@ -109,20 +100,11 @@ button:focus
 .reviews
   text-align: left
 
-.main
-  display: flex
-  flex-direction: row
-  min-height: 520px
-
-  &.column
-    width: 100%
-    flex-direction: column
-
-  &.center
-    align-items: center
-
 .atom
   margin-bottom: 20px
+
+.bgc-grey
+  background-color: #FCFBFB
 
 .text-red
   color: $red

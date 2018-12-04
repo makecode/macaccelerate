@@ -3,20 +3,30 @@
   display: flex
   padding: 10px 30px
   width: 100%
-  background-color: #ffffff
+  background-color: transparent
   box-sizing: border-box
   transition: all .3s ease-in-out
+  overflow: hidden
 
   &__left
     display: inline-flex
     align-items: center
 
   &__right
+    position: relative
     display: flex
     align-items: center
     justify-content: space-between
     flex-basis: 100%
-    overflow: hidden
+
+    &:after
+      position: absolute
+      content: ''
+      left: 0
+      bottom: -10px
+      width: 1000px
+      height: 1px
+      background-color: $borderGrey
 
   &__title
     display: flex
@@ -40,8 +50,15 @@
     text-overflow: ellipsis
     +SFProTextMedium
 
+  &__sum
+    display: flex
+
+    .tree-item__size
+      margin-right: 5px
+
   &__size
     flex-shrink: 0
+    opacity: .75
     +SFProTextMedium
 
   &__btn
@@ -86,6 +103,3 @@
   &:hover,
   &.selected
     background-color: $borderGrey
-
-    .tree-item__btn
-      display: inline-block

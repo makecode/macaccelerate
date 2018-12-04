@@ -2,29 +2,5 @@
   display: flex
   flex-direction: column
 
-  &.tree-items
-    .list__el
-      position: relative
-      margin: 0
-
-      &::after
-        position: absolute
-        content: ''
-        width: calc(100% - 81px)
-        right: 0
-        bottom: 0
-        border-bottom: 1px solid $borderGrey
-
-      &:last-child
-        &::after
-          border-bottom: none
-  &__el
-    .item__data
-      border-bottom: 1px solid $borderGrey
-
-  &__el:last-child
-    .item__data
-      border-bottom: none
-
   .ml
     margin-left: 12%

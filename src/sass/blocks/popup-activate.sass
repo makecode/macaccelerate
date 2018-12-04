@@ -18,7 +18,7 @@
     display: flex
     flex-direction: row
     width: 100%
-    border: 1px solid $borderGrey
+    border-top: 1px solid $borderGrey
 
   &__left
     width: 70%
@@ -71,6 +71,10 @@
     align-items: center
     justify-content: space-between
 
+    .guarantee
+      img
+        margin-right: 20px
+
   &.hide
     display: none
 
@@ -78,6 +82,9 @@
     width: 880px
 
     .popup-activate
+
+      &__head
+        width: 100%
 
       &__content
         border-top: none
@@ -94,6 +101,12 @@
 
         button
           width: 300px
+
+    .guarantee
+      justify-content: flex-start
+
+      img
+        margin-right: 20px
 
     .plan
       width: 180px
