@@ -5,19 +5,19 @@
   width: 100%
   background-color: transparent
   box-sizing: border-box
-  transition: all .3s ease-in-out
   overflow: hidden
 
   &__left
     display: inline-flex
     align-items: center
+    flex-shrink: 0
 
   &__right
     position: relative
     display: flex
     align-items: center
-    justify-content: space-between
-    flex-basis: 100%
+    flex: 1
+    width: calc(100% - 85px)
 
     &:after
       position: absolute
@@ -47,6 +47,8 @@
     overflow: hidden
     white-space: nowrap
     text-overflow: ellipsis
+    box-sizing: border-box
+    flex: 1
     +SFProTextMedium
 
   &__sum
@@ -111,6 +113,9 @@
 
   .tree-item
     height: 36px
+
+    &__right
+      width: calc(100% - 73px)
 
   .icon
     width: 24px
