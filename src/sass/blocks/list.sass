@@ -2,5 +2,16 @@
   display: flex
   flex-direction: column
 
+  &__el:last-child
+    .item__data::after
+      display: none
+
+  &.without-checkbox
+    padding-left: 35px
+
   .ml
     margin-left: 12%
+
+  &__el
+    .list
+      margin-left: 35px

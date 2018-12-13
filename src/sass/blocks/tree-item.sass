@@ -36,7 +36,6 @@
     margin-right: 15px
 
   &__checkbox
-    //margin-left: 15px
     margin-right: 20px
 
   &__icon
@@ -54,11 +53,15 @@
     display: flex
 
     .tree-item__size
-      margin-right: 5px
+      margin-right: 10px
+
+    .icon-check
+      width: 16px
+      height: 16px
 
   &__size
-    flex-shrink: 0
     opacity: .75
+    flex-shrink: 0
     +SFProTextMedium
 
   &__btn
@@ -103,3 +106,12 @@
   &:hover,
   &.selected
     background-color: $borderGrey
+
+.tree-items-small
+
+  .tree-item
+    height: 36px
+
+  .icon
+    width: 24px
+    height: 24px

@@ -11,31 +11,42 @@
 <body>
   <div class="app">
     <div class="container">
-      <div class="header">
-        <div class="item">
+      <div class="main column">
+        <div class="item general">
           <div class="item__icon">
             <img class="icon" src="img/icon_system_junk.svg" alt="#">
           </div>
           <div class="item__wrap">
             <div class="item__information">
-              <span class="item__title fz-20">System Junk Files</span>
-              <span class="label large red">Bloated</span>
-              <span class="item__description">Remove junk files, reclaim hard drive space.</span>
+              <div class="item__flex">
+                <span class="item__title fz-20">System Junk Files</span>
+                <span class="label large red">Bloated</span>
+              </div>
+              <p class="item__description">Remove junk files, reclaim hard drive space.</p>
             </div>
             <div class="junk-files">
               <span class="junk-files__size red">8.59 GB</span>
             </div>
-            </div>
-          </div><!-- end item__wrap -->
-      </div><!-- end header -->
-      <div class="main">
-        <div class="section with-border">
+          </div>
+        </div><!-- end item__wrap -->
+        <div class="tree">
+          <div class="section with-border">
           <div class="section__head">
+            <div class="check">
+              <div class="checkbox">
+                <label class="checkbox__label">
+                  <input class="checkbox__input" type="checkbox"/>
+                  <span class="checkbox__el"></span>
+                </label>
+              </div>
+              <span class="check__text">Check All</span>
+            </div>
             <div class="sort">
               <span class="sort__btn">Sort by name</span>
             </div>
-          </div>
-          <ul class="list tree-items">
+          </div><!-- end section__head -->
+          <div class="section__main">
+            <ul class="list">
               <li class="list__el">
                 <div class="tree-item">
                   <div class="tree-item__left">
@@ -162,15 +173,51 @@
                   </div>
                 </div><!-- end tree-item -->
               </li>
+              <li class="list__el">
+                <div class="tree-item">
+                  <span class="arrow"></span>
+                  <div class="tree-item__left">
+                    <div class="tree-item__checkbox">
+                      <div class="checkbox">
+                        <label class="checkbox__label">
+                          <input class="checkbox__input" type="checkbox" />
+                          <span class="checkbox__el"></span>
+                        </label>
+                      </div>
+                    </div>
+                    <div class="tree-item__icon">
+                      <img class="icon small empty" src="img/icon_square.svg" />
+                    </div>
+                  </div>
+                  <div class="tree-item__right">
+                    <div class="tree-item__title">
+                      <span class="tree-item__text">Zeplin.app Cache</span>
+                      <button class="tree-item__btn" type="button" name="button"></button><!--Visible on hover or select-->
+                    </div>
+                    <span class="tree-item__size">1.05 GB</span>
+                  </div>
+                </div><!-- end tree-item -->
+              </li>
             </ul>
+          </div>
         </div>
-        <div class="section wide">
+          <div class="section wide">
           <div class="section__head">
+            <div class="check">
+              <div class="checkbox">
+                <label class="checkbox__label">
+                  <input class="checkbox__input" type="checkbox"/>
+                  <span class="checkbox__el"></span>
+                </label>
+              </div>
+              <span class="check__text">Check All</span>
+            </div>
             <div class="sort">
               <span class="sort__btn">Sort by name</span>
             </div>
-          </div>
-          <ul class="list tree-items">
+          </div><!-- end section__head -->
+          <div class="section__main">
+            <ul class="list">
               <li class="list__el">
                 <div class="tree-item selected">
                   <span class="arrow folder"></span>
@@ -195,6 +242,56 @@
                     <span class="tree-item__size">1.05 GB</span>
                   </div>
                 </div><!-- end tree-item -->
+                <ul class="list">
+                  <li class="list__el">
+                    <div class="tree-item">
+                      <div class="tree-item__left">
+                        <div class="tree-item__checkbox">
+                          <div class="checkbox checked">
+                            <label class="checkbox__label">
+                              <input class="checkbox__input" type="checkbox" checked/>
+                              <span class="checkbox__el"></span>
+                            </label>
+                          </div>
+                        </div>
+                        <div class="tree-item__icon">
+                          <img class="icon small" src="img/icon_performance.svg" alt="#"/>
+                        </div>
+                      </div>
+                      <div class="tree-item__right">
+                        <div class="tree-item__title">
+                          <span class="tree-item__text">io.zeplin.osx</span>
+                          <button class="tree-item__btn" type="button" name="button"></button><!--Visible on hover or select-->
+                        </div>
+                        <span class="tree-item__size">1.05 GB</span>
+                      </div>
+                    </div><!-- end tree-item -->
+                  </li>
+                  <li class="list__el">
+                    <div class="tree-item">
+                      <div class="tree-item__left">
+                        <div class="tree-item__checkbox">
+                          <div class="checkbox checked">
+                            <label class="checkbox__label">
+                              <input class="checkbox__input" type="checkbox" checked/>
+                              <span class="checkbox__el"></span>
+                            </label>
+                          </div>
+                        </div>
+                        <div class="tree-item__icon">
+                          <img class="icon small" src="img/icon_performance.svg" alt="#"/>
+                        </div>
+                      </div>
+                      <div class="tree-item__right">
+                        <div class="tree-item__title">
+                          <span class="tree-item__text">io.zeplin.osx</span>
+                          <button class="tree-item__btn" type="button" name="button"></button><!--Visible on hover or select-->
+                        </div>
+                        <span class="tree-item__size">139 KB</span>
+                      </div>
+                    </div><!-- end tree-item -->
+                  </li>
+                </ul>
               </li>
               <li class="list__el">
                 <div class="tree-item">
@@ -285,6 +382,8 @@
                 </div><!-- end tree-item -->
               </li>
             </ul>
+          </div>
+        </div>
         </div>
       </div><!-- end main -->
       <div class="footer">

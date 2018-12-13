@@ -54,12 +54,22 @@ button:focus
     height: 36px
 
 .path
-  margin-top: 20px
   opacity: 0.5
 
 .details
   margin: 20px 0
   text-align: right
+
+  &__btn
+    padding: 0
+    position: relative
+    right: 30px
+    border: none
+    font-size: 13px
+    letter-spacing: -0.1px
+    color: $blue
+    cursor: pointer
+    +SFProTextSemibold
 
 .rating
   display: flex
@@ -79,6 +89,37 @@ button:focus
 
 .sort
   text-align: right
+
+  &__btn
+    position: relative
+    padding-right: 20px
+    font-size: 13px
+    opacity: .75
+    +SFProTextMedium
+
+    &::after,
+    &::before
+      content: ''
+      position: absolute
+      top: 9px
+      width: 9px
+      height: 2px
+      background-color: #8D8C8F
+
+    &::after
+      right: 3px
+      transform: rotate(45deg)
+
+    &::before
+      right: -2px
+      transform: rotate(-45deg)
+
+.check
+
+  &__text
+    padding-left: 15px
+    +SFProTextMedium
+
 
 .payment
   padding: 15px 0
@@ -100,6 +141,12 @@ button:focus
 .reviews
   text-align: left
 
+.tree
+  display: flex
+  flex-direction: row
+  flex-wrap: nowrap
+  //min-height: 100%
+
 .atom
   margin-bottom: 20px
 
@@ -108,9 +155,12 @@ button:focus
 
 .text-red
   color: $red
+  opacity: 1!important
 
 .text-green
   color: $green
+  opacity: 1!important
 
 .text-orange
   color: $orange
+  opacity: 1!important

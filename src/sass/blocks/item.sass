@@ -11,20 +11,20 @@
     object-fit: contain
 
   &__data
+    height: 100%
     position: relative
     margin-left: 30px
-    //padding-bottom: 20px
     width: 100%
     display: flex
     flex-direction: row
-    align-items: flex-start
+    align-items: center
     justify-content: space-between
     flex-basis: 100%
 
     &:after
       content: ''
       position: absolute
-      bottom: -20px
+      bottom: 0
       left: 0
       width: 100%
       height: 1px
@@ -32,13 +32,9 @@
 
   &__info
     padding-right: 30px
-    //width: 360px
     display: flex
     flex-direction: column
     box-sizing: border-box
-
-  &__status
-    //width: 52%
 
   &__result
     text-align: right
@@ -58,17 +54,22 @@
     font-size: 17px
     +SFProDisplaySemibold
 
-  &__details
-    margin-top: 10px
-    text-align: right
-    cursor: pointer
-
   &__description
     font-size: 13px
     opacity: 0.75
     letter-spacing: -0.1px
 
+  &__log
+    text-align: right
+    cursor: pointer
+
+  &__details
+    margin-top: 13px
+    text-align: right
+    cursor: pointer
+
   &__button
+    font-size: 13px
     padding: 0
     letter-spacing: -0.1px
     border: none
@@ -101,7 +102,40 @@
     align-items: center
 
     .item__title
-      margin-left: 10px
+      margin-left: 5px
+
+  &__flex
+    display: flex
+    align-items: center
+
+  &__wrap
+    width: 100%
+    display: flex
+    justify-content: space-between
+
+    .item__information
+      margin-left: 20px
+
+  &__information
+    margin-left: 30px
+    flex-direction: row
+
+  &.general
+    flex-shrink: 0
+    border-bottom: 1px solid $borderGrey
+
+    .item__wrap
+      width: 100%
+      display: flex
+      justify-content: space-between
+
+    .item__title
+      margin-right: 10px
+
+    .item__description
+      width: 500px
+      position: relative
+      top: 5px
 
   &.green
     .item__size
@@ -132,19 +166,20 @@
     height: auto
     margin: 0 auto
     padding: 0
-    //display: inline-flex
     display: flex
     flex-direction: column
     justify-content: center
     text-align: center
 
     .item__info
-      margin-top: 12px
       margin-left: 0
       padding-right: 0
 
     .item__img
-      margin-bottom: 30px
+      margin-bottom: 25px
+
+    .item__label
+      margin-bottom: 15px
 
     .item__title
       font-size: 20px
@@ -162,3 +197,21 @@
 
     .item__status
       width: 100%
+
+.product
+  width: 360px
+  text-align: center
+
+  &__title
+    font-size: 20px
+    +SFProDisplaySemibold
+
+  &__description
+    display: inline-block
+    margin: 5px 0
+
+  &__size
+    opacity: .95
+    letter-spacing: 0.3px
+    font-size: 20px
+    +SFProDisplaySemibold

@@ -1,42 +1,28 @@
 .section
   width: 41.8604651163%
+  display: flex
+  flex-direction: column
 
   &__head
+    display: flex
+    justify-content: space-between
+    align-items: center
     padding: 0 30px
     height: 36px
     line-height: 36px
     border-bottom: 1px solid $borderGrey
+    flex-shrink: 0
+
+  &__flex
+    display: flex
+    align-items: flex-start
+    width: 100%
+
+  &__main
+    overflow-y: auto
 
   &.wide
     width: 58.1395348837%
 
   &.with-border
     border-right: 1px solid $borderGrey
-
-  //&__left
-  //  width: 58.1395348837%
-  //  text-align: center
-  //  border-right: 1px solid $borderGrey
-  //
-  //&__right
-  //  width: 41.8604651163%
-  //
-  //&__wrap
-  //  width: 100%
-  //  display: flex
-  //  flex-direction: column
-  //&.width
-  //  .section__left
-  //    width: 41.8604651163%
-  //    border-right: 1px solid $borderGrey
-  //
-  //  .section__right
-  //    width: 58.1395348837%
-  //    padding-left: 30px
-  //    box-sizing: border-box
-  //
-  //&.junk-files-result
-  //  .section__right
-  //    width: 41.8604651163%
-  //    padding-left: 30px
-  //    box-sizing: border-box
