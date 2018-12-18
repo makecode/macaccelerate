@@ -5,21 +5,26 @@
   &.without-checkbox
     padding-left: 35px
 
-  &__el
+  &.with-last-border
+    .list__el
+      & > .tree-item .tree-item__right::after
+        display: block
 
-    &:first-child
+  &__el
+    &:last-child
+
       .item__data::after
         display: none
 
-    &:last-child
-      .tree-item__right::after
-        display: none
+      //& > .tree-item .tree-item__right::after
+      //  display: none
 
     .list
       margin-left: 35px
-      &__el
-        &:last-child
-          .tree-item__right::after
-            display: none
-  .ml
-    margin-left: 12%
+
+      &__el:last-child
+        .tree-item__right::after
+          display: block
+
+  //.ml
+  //  margin-left: 12%

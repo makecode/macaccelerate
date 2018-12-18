@@ -22,24 +22,25 @@
         </div><!-- end item__wrap -->
         <div class="tree">
           <div class="section with-border">
-          <div class="section__head">
-            <div class="check">
-              <div class="checkbox">
-                <label class="checkbox__label">
-                  <input class="checkbox__input" type="checkbox"/>
-                  <span class="checkbox__el"></span>
-                </label>
+            <div class="section__head">
+              <div class="check">
+                <div class="checkbox multicheck checked">
+                  <label class="checkbox__label">
+                    <input class="checkbox__input" type="checkbox" checked/>
+                    <span class="checkbox__el"></span>
+                  </label>
+                </div>
+                <span class="check__text">Check All</span>
               </div>
-              <span class="check__text">Check All</span>
+              <div class="sort up">
+                <span class="sort__name">Sort by name</span>
+                <span class="sort__arrow"></span>
+              </div>
             </div>
-            <div class="sort">
-              <span class="sort__btn">Sort by name</span>
-            </div>
-          </div><!-- end section__head -->
-          <div class="section__main">
+            <div class="section__main">
             <ul class="list">
               <li class="list__el">
-                <div class="tree-item">
+                <div class="tree-item open">
                   <div class="tree-item__left">
                     <div class="tree-item__checkbox">
                       <div class="checkbox checked">
@@ -191,27 +192,28 @@
               </li>
             </ul>
           </div>
-        </div>
+          </div>
           <div class="section wide">
-          <div class="section__head">
+            <div class="section__head">
             <div class="check">
-              <div class="checkbox">
+              <div class="checkbox multicheck checked">
                 <label class="checkbox__label">
-                  <input class="checkbox__input" type="checkbox"/>
+                  <input class="checkbox__input" type="checkbox" checked/>
                   <span class="checkbox__el"></span>
                 </label>
               </div>
               <span class="check__text">Check All</span>
             </div>
             <div class="sort">
-              <span class="sort__btn">Sort by name</span>
+              <span class="sort__name">Sort by name</span>
+              <span class="sort__arrow"></span>
             </div>
           </div><!-- end section__head -->
-          <div class="section__main">
+            <div class="section__main">
             <ul class="list">
               <li class="list__el">
                 <div class="tree-item selected">
-                  <span class="arrow folder"></span>
+                  <span class="arrow"></span>
                   <div class="tree-item__left">
                     <div class="tree-item__checkbox">
                       <div class="checkbox checked">
@@ -287,7 +289,7 @@
               <li class="list__el">
                 <div class="tree-item">
                   <div class="tree-item__left">
-                    <span class="arrow folder open"></span>
+                    <span class="arrow"></span>
                     <div class="tree-item__checkbox">
                       <div class="checkbox checked">
                         <label class="checkbox__label">
@@ -301,7 +303,10 @@
                     </div>
                   </div>
                   <div class="tree-item__right">
-                    <span class="tree-item__text">iTunes.app Cache</span>
+                    <div class="tree-item__title">
+                      <span class="tree-item__text">iTunes.app Cache</span>
+                      <button class="tree-item__btn" type="button" name="button"></button><!--Visible on hover or select-->
+                    </div>
                     <span class="tree-item__size">670.9 MB</span>
                   </div>
                 </div><!-- end tree-item -->
@@ -323,7 +328,10 @@
                     </div>
                   </div>
                   <div class="tree-item__right">
-                    <span class="tree-item__text">Spotify.app Cache</span>
+                    <div class="tree-item__title">
+                      <span class="tree-item__text">Spotify.app Cache</span>
+                      <button class="tree-item__btn" type="button" name="button"></button><!--Visible on hover or select-->
+                    </div>
                     <span class="tree-item__size">597.7 MB</span>
                   </div>
                 </div><!-- end tree-item -->
@@ -331,7 +339,7 @@
               <li class="list__el">
                 <div class="tree-item">
                   <div class="tree-item__left">
-                    <span class="arrow folder open"></span>
+                    <span class="arrow"></span>
                     <div class="tree-item__checkbox">
                       <div class="checkbox checked">
                         <label class="checkbox__label">
@@ -345,7 +353,10 @@
                     </div>
                   </div>
                   <div class="tree-item__right">
-                    <span class="tree-item__text">Safari.app Cache</span>
+                    <div class="tree-item__title">
+                      <span class="tree-item__text">Safari.app Cache</span>
+                      <button class="tree-item__btn" type="button" name="button"></button><!--Visible on hover or select-->
+                    </div>
                     <span class="tree-item__size">574.4 MB</span>
                   </div>
                 </div><!-- end tree-item -->
@@ -367,14 +378,17 @@
                     </div>
                   </div>
                   <div class="tree-item__right">
-                    <span class="tree-item__text">Google</span>
+                    <div class="tree-item__title">
+                      <span class="tree-item__text">Google</span>
+                      <button class="tree-item__btn" type="button" name="button"></button><!--Visible on hover or select-->
+                    </div>
                     <span class="tree-item__size">276.1 MB</span>
                   </div>
                 </div><!-- end tree-item -->
               </li>
             </ul>
           </div>
-        </div>
+          </div>
         </div>
       </div><!-- end main -->
       <div class="footer">

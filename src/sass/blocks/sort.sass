@@ -1,26 +1,40 @@
 .sort
+  position: relative
   text-align: right
 
-  &__btn
-    position: relative
+  &__name
     padding-right: 20px
     font-size: 13px
     opacity: .75
     +SFProTextMedium
 
+  &__arrow
+    display: inline-block
+    position: absolute
+    top: 60%
+    right: 0
+    transform: translateY(-60%)
+    width: 14px
+    height: 9px
+    transform-origin: 50%
+
     &::after,
     &::before
       content: ''
       position: absolute
-      top: 9px
+      top: 4px
       width: 9px
       height: 2px
       background-color: #8D8C8F
 
     &::after
-      right: 3px
+      right: 5px
       transform: rotate(45deg)
 
     &::before
-      right: -2px
+      right: 0
       transform: rotate(-45deg)
+
+  &.up
+    .sort__arrow
+      transform: rotate(180deg) translateY(60%)
