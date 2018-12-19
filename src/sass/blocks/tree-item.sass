@@ -11,15 +11,17 @@
   &.selected
     background-color: $borderGrey
 
+    .tree-item__btn
+      display: block
+
     .tree-item__right::after
       background-color: transparent
 
-  &.selected
-    .arrow
-      transform: rotate(-90deg) translateX(50%)
+  //&.selected
+  //  .arrow
+  //    transform: rotate(-90deg) translateX(50%)
 
-    .tree-item__btn
-      display: block
+
 
   &__left
     display: inline-flex
@@ -117,8 +119,11 @@
     position: absolute
     top: 50%
     left: 10px
-    transform: translateY(-50%)
+    transform: rotate(-90deg) translateX(50%)
     transform-origin: center
+
+    &.open
+      transform: translateY(-50%)
 
 .tree-items-small
   .list__el:last-child
