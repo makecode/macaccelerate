@@ -48,6 +48,11 @@
   &__title
     display: flex
     align-items: center
+    margin-right: 10px
+    overflow: hidden
+    white-space: nowrap
+    text-overflow: ellipsis
+    box-sizing: border-box
 
   &__arrow
     margin-right: 15px
@@ -119,11 +124,10 @@
     position: absolute
     top: 50%
     left: 10px
-    transform: rotate(-90deg) translateX(50%)
-    transform-origin: center
+    transform: translateY(-50%)
 
     &.open
-      transform: translateY(-50%)
+      transform: rotate(90deg) translateX(-50%)
 
 .tree-items-small
   .list__el:last-child
