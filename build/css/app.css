@@ -120,7 +120,7 @@ button:focus { outline: none; cursor: pointer; }
 .checkbox.checked .checkbox__el::after, .checkbox.indeterminate .checkbox__el::after { position: absolute; top: 50%; left: 50%; content: ""; width: 100%; height: 100%; -webkit-transform: translate(-50%, -50%); -ms-transform: translate(-50%, -50%); transform: translate(-50%, -50%); }
 .checkbox.checked .checkbox__el::after { background: url("../img/icon_checked.svg") center no-repeat; }
 .checkbox.multicheck .checkbox__el::after { background: url("../img/icon_multicheck.svg") center no-repeat; }
-.checkbox__el { display: inline-block; width: 100%; height: 100%; border: 1px solid #e8e7e8; background-color: transparent; border-radius: 3px; cursor: pointer; box-sizing: border-box; }
+.checkbox__el { display: inline-block; width: 100%; height: 100%; border: 1px solid #D6D8DB; background-color: #fff; border-radius: 3px; cursor: pointer; box-sizing: border-box; }
 .checkbox input { display: none; }
 
 .icon { display: inline-block; width: 64px; height: 64px; background-repeat: no-repeat; background-position: center; background-size: cover; }
@@ -176,9 +176,9 @@ button:focus { outline: none; cursor: pointer; }
 .item__title.fz-20 { font-size: 20px; }
 .item__size { font-size: 17px; font-family: "sf-pro-display-semibold", Helvetica, Arial, sans-serif; }
 .item__description { font-size: 13px; opacity: 0.75; letter-spacing: -0.1px; }
-.item__log { text-align: right; cursor: pointer; }
+.item__log { text-align: right; }
 .item__details { margin-top: 13px; text-align: right; cursor: pointer; }
-.item__button { font-size: 13px; padding: 0; letter-spacing: -0.1px; border: none; background-color: transparent; color: #0097E8; font-family: "sf-pro-text-semibold", Helvetica, Arial, sans-serif; }
+.item__button { font-size: 13px; padding: 0; letter-spacing: -0.1px; border: none; background-color: transparent; color: #0097E8; cursor: pointer; font-family: "sf-pro-text-semibold", Helvetica, Arial, sans-serif; }
 .item__scan { font-size: 20px; color: #313235; letter-spacing: 0.3px; font-family: "sf-pro-display-semibold", Helvetica, Arial, sans-serif; }
 .item__percent { margin-left: 5px; font-size: 20px; color: #0097E8; opacity: 0.95; font-family: "sf-pro-display-semibold", Helvetica, Arial, sans-serif; }
 .item__checkbox { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; }
@@ -242,6 +242,8 @@ button:focus { outline: none; cursor: pointer; }
 
 .list { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column; }
 .list.without-checkbox { padding-left: 35px; }
+.list.without-checkbox .tree-item:hover, .list.without-checkbox .tree-item.selected { background-color: transparent; }
+.list.without-checkbox .tree-item:hover .tree-item__right::after, .list.without-checkbox .tree-item.selected .tree-item__right::after { background-color: #E3E4E7; }
 .list.with-last-border .list__el > .tree-item .tree-item__right::after { display: block; }
 .list__el:last-child .item__data::after { display: none; }
 .list__el .list { margin-left: 35px; }

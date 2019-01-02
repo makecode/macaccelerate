@@ -5,6 +5,14 @@
   &.without-checkbox
     padding-left: 35px
 
+    .tree-item
+      &:hover,
+      &.selected
+        background-color: transparent
+
+        .tree-item__right::after
+          background-color: $borderGrey
+
   &.with-last-border
     .list__el
       & > .tree-item .tree-item__right::after
