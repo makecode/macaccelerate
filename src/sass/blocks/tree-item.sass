@@ -1,7 +1,7 @@
 .tree-item
   position: relative
   display: flex
-  padding: 10px 30px
+  padding: 8px 30px
   width: 100%
   background-color: transparent
   box-sizing: border-box
@@ -90,26 +90,15 @@
     background-image: url('../img/icon_search.svg')
     background-size: cover
 
-  &__status
+  &__status-text
     position: relative
-    padding-right: 20px
+    padding-right: 6px
     color: #424244
-    +SFProTextMedium
 
-    &::after
+    .state
       position: absolute
-      content: ''
-      top: 50%
+      top: 0
       right: 0
-      transform: translateY(-50%)
-      width: 10px
-      height: 10px
-      border-radius: 50px
-      background-color: #68C15E
-
-    &.red
-      &::after
-        background-color: #EA463D
 
   &__progress
     display: flex
@@ -129,11 +118,15 @@
       display: block
 
   .tree-item
-    height: 36px
+    height: 48px
 
     &__right
       width: calc(100% - 73px)
 
+    &.parent
+      height: 36px
+
+
   .icon
-    width: 24px
-    height: 24px
+    width: 32px
+    height: 32px

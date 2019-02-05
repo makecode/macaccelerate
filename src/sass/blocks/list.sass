@@ -24,12 +24,13 @@
       .item__data::after
         display: none
 
-      //& > .tree-item .tree-item__right::after
-      //  display: none
-
     .list
       margin-left: 35px
 
       &__el:last-child
         .tree-item__right::after
           display: block
+
+  &.with-right-link
+    .item__result
+      padding-bottom: 20px

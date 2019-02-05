@@ -51,3 +51,19 @@ function onPlanClick(el) {
   $(el).addClass('active');
 }
 
+const input = document.querySelector('.value');
+const progressEl = document.querySelector('.circle__progress');
+
+function showProgress (value) {
+  const radius = 8;
+  const circimference = 2 * Math.PI * radius; // https://en.wikipedia.org/wiki/Circumference
+  const progress = value / 100;
+  const dashOffset = circimference * (1 - progress);
+
+  progressEl.style.strokeDashoffset = dashOffset;
+}
+
+input.addEventListener('input', function (e) {
+  showProgress(e.target.value);
+});
+

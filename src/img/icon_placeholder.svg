@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>Placeholder</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M6,0 C2.686,0 0,2.686 0,6 L0,50 C0,53.314 2.686,56 6,56 L38,56 C41.314,56 44,53.314 44,50 L44,13.657 C44,12.596 43.579,11.578 42.828,10.828 L33.171,1.171 C32.421,0.422 31.404,0 30.343,0 L6,0 Z" id="path-1"></path>
+        <linearGradient x1="72.0616341%" y1="104.78076%" x2="22.0844139%" y2="-3.10667125%" id="linearGradient-3">
+            <stop stop-color="#8CBCF4" offset="0%"></stop>
+            <stop stop-color="#BADDF6" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Placeholder" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-18">
+            <polygon id="Fill-1" points="0 64 64 64 64 0 0 0"></polygon>
+            <polygon id="Fill-2" points="4 60 60 60 60 4 4 4"></polygon>
+            <g id="Group-5" transform="translate(10.000000, 4.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Clip-4"></g>
+                <path d="M6,0 C2.686,0 0,2.686 0,6 L0,50 C0,53.314 2.686,56 6,56 L38,56 C41.314,56 44,53.314 44,50 L44,13.657 C44,12.596 43.579,11.578 42.828,10.828 L33.171,1.171 C32.421,0.422 31.404,0 30.343,0 L6,0 Z" id="Fill-3" fill="url(#linearGradient-3)" mask="url(#mask-2)"></path>
+            </g>
+            <g id="Group-17" transform="translate(42.000000, 4.000000)" fill="#E9EBF4" opacity="0.5">
+                <path d="M0,6 C0,9.313 2.687,12 6,12 L11.628,12 C11.432,11.57 11.169,11.169 10.829,10.828 L1.171,1.172 C0.831,0.831 0.43,0.568 0,0.372 L0,6 Z" id="Fill-15"></path>
+            </g>
+        </g>
+    </g>
+</svg>

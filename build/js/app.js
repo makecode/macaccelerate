@@ -2334,3 +2334,19 @@ function onPlanClick(el) {
   $('.plan.active').removeClass('active');
   $(el).addClass('active');
 }
+
+var input = document.querySelector('.value');
+var progressEl = document.querySelector('.circle__progress');
+
+function showProgress(value) {
+  var radius = 8;
+  var circimference = 2 * Math.PI * radius; // https://en.wikipedia.org/wiki/Circumference
+  var progress = value / 100;
+  var dashOffset = circimference * (1 - progress);
+
+  progressEl.style.strokeDashoffset = dashOffset;
+}
+
+input.addEventListener('input', function (e) {
+  showProgress(e.target.value);
+});

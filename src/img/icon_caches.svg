@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>Caches</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M6,0 C2.686,0 0,2.686 0,6 L0,50 C0,53.314 2.686,56 6,56 L38,56 C41.314,56 44,53.314 44,50 L44,13.657 C44,12.596 43.579,11.578 42.828,10.828 L33.171,1.171 C32.421,0.422 31.404,0 30.343,0 L6,0 Z" id="path-1"></path>
+        <linearGradient x1="72.0616341%" y1="104.78076%" x2="22.0844139%" y2="-3.10667125%" id="linearGradient-3">
+            <stop stop-color="#8CBCF4" offset="0%"></stop>
+            <stop stop-color="#BADDF6" offset="100%"></stop>
+        </linearGradient>
+        <path d="M0,18 C0,27.941 8.059,36 18,36 C27.941,36 36,27.941 36,18 C36,8.059 27.941,0 18,0 C8.059,0 0,8.059 0,18" id="path-4"></path>
+        <linearGradient x1="67.1056642%" y1="96.9974181%" x2="32.8943411%" y2="3.00258861%" id="linearGradient-6">
+            <stop stop-color="#FFA002" offset="0%"></stop>
+            <stop stop-color="#FFCD00" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Caches" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-18">
+            <polygon id="Fill-1" points="0 64 64 64 64 0 0 0"></polygon>
+            <polygon id="Fill-2" points="4 60 60 60 60 4 4 4"></polygon>
+            <g id="Group-5" transform="translate(10.000000, 4.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Clip-4"></g>
+                <path d="M6,0 C2.686,0 0,2.686 0,6 L0,50 C0,53.314 2.686,56 6,56 L38,56 C41.314,56 44,53.314 44,50 L44,13.657 C44,12.596 43.579,11.578 42.828,10.828 L33.171,1.171 C32.421,0.422 31.404,0 30.343,0 L6,0 Z" id="Fill-3" fill="url(#linearGradient-3)" mask="url(#mask-2)"></path>
+            </g>
+            <path d="M43,29 C32.523,29 24,37.523 24,48 C24,52.548 25.61,56.726 28.285,60 L48,60 C51.313,60 54,57.313 54,54 L54,32.537 C50.892,30.319 47.101,29 43,29" id="Fill-6" fill="#000000" opacity="0.15"></path>
+            <g id="Group-10" transform="translate(24.000000, 28.000000)">
+                <mask id="mask-5" fill="white">
+                    <use xlink:href="#path-4"></use>
+                </mask>
+                <g id="Clip-9"></g>
+                <path d="M0,18 C0,27.941 8.059,36 18,36 C27.941,36 36,27.941 36,18 C36,8.059 27.941,0 18,0 C8.059,0 0,8.059 0,18" id="Fill-8" fill="url(#linearGradient-6)" mask="url(#mask-5)"></path>
+            </g>
+            <g id="Group-17" transform="translate(34.000000, 4.000000)">
+                <path d="M6.9395,45.1816 L0.5755,38.8186 C-0.0105,38.2326 -0.0105,37.2826 0.5755,36.6966 C1.1615,36.1116 2.1105,36.1116 2.6965,36.6966 L9.0605,43.0606 C9.6465,43.6466 9.6465,44.5966 9.0605,45.1816 C8.4755,45.7676 7.5245,45.7676 6.9395,45.1816" id="Fill-11" fill="#FFFFFF"></path>
+                <path d="M6.9395,43.0605 L17.5455,32.4545 C18.1315,31.8685 19.0815,31.8685 19.6675,32.4545 C20.2525,33.0395 20.2525,33.9895 19.6675,34.5755 L9.0605,45.1815 C8.4755,45.7675 7.5245,45.7675 6.9395,45.1815 C6.3535,44.5955 6.3535,43.6465 6.9395,43.0605" id="Fill-13" fill="#FFFFFF"></path>
+                <path d="M8,6 C8,9.313 10.687,12 14,12 L19.628,12 C19.432,11.57 19.169,11.169 18.829,10.828 L9.171,1.172 C8.831,0.831 8.43,0.568 8,0.372 L8,6 Z" id="Fill-15" fill="#E9EBF4" opacity="0.5"></path>
+            </g>
+        </g>
+    </g>
+</svg>

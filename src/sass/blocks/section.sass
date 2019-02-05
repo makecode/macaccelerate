@@ -1,5 +1,6 @@
 .section
   width: 41.8604651163%
+  position: relative
   display: flex
   flex-direction: column
 
@@ -11,6 +12,9 @@
     height: 36px
     border-bottom: 1px solid $borderGrey
     flex-shrink: 0
+
+    &.right
+      justify-content: flex-end
 
   &__flex
     display: flex

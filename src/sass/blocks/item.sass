@@ -31,13 +31,17 @@
       background-color: $borderGrey
 
   &__info
+    position: relative
     padding-right: 30px
     display: flex
     flex-direction: column
     box-sizing: border-box
 
   &__result
-    text-align: right
+    position: relative
+    padding-right: 32px
+    display: flex
+    align-items: center
 
   &__title
     font-size: 17px
@@ -60,10 +64,19 @@
     letter-spacing: -0.1px
 
   &__log
-    text-align: right
+    position: absolute
+    right: 32px
+    bottom: 3px
+
+  &__status-icon
+    position: absolute
+    top: 0
+    right: 0
 
   &__details
-    margin-top: 13px
+    position: absolute
+    right: 0
+    bottom: -25px
     text-align: right
     cursor: pointer
 
@@ -75,7 +88,7 @@
     background-color: transparent
     color: $blue
     cursor: pointer
-    +SFProTextSemibold
+    +SFProTextMedium
 
   &__scan
     font-size: 20px
@@ -100,9 +113,6 @@
   &__progress
     display: flex
     align-items: center
-
-    .item__title
-      margin-left: 5px
 
   &__flex
     display: flex
@@ -189,7 +199,15 @@
       display: inline-block
       margin: 5px 0
 
+    .item__result
+      padding-right: 0
+      justify-content: center
+
+      .item__size
+        margin-left: 8px
+
     .item__size
+      margin-right: 0
       opacity: .95
       letter-spacing: 0.3px
       font-size: 20px

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>Logs</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="72.0616341%" y1="104.78076%" x2="22.0844139%" y2="-3.10667125%" id="linearGradient-1">
+            <stop stop-color="#8CBCF4" offset="0%"></stop>
+            <stop stop-color="#BADDF6" offset="100%"></stop>
+        </linearGradient>
+        <path d="M6,0 C2.686,0 0,2.686 0,6 L0,50 C0,53.314 2.686,56 6,56 L38,56 C41.314,56 44,53.314 44,50 L44,13.657 C44,12.596 43.579,11.578 42.828,10.828 L33.171,1.171 C32.421,0.422 31.404,0 30.343,0 L6,0 Z" id="path-2"></path>
+        <path d="M3,0 C1.343,0 0,1.343 0,3 L0,21 C0,22.658 1.343,24 3,24 L49,24 C50.657,24 52,22.658 52,21 L52,3 C52,1.343 50.657,0 49,0 L3,0 Z" id="path-4"></path>
+        <linearGradient x1="62.7103292%" y1="125.662927%" x2="37.2896654%" y2="-25.6629192%" id="linearGradient-6">
+            <stop stop-color="#F9316E" offset="0%"></stop>
+            <stop stop-color="#FB9C7B" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Logs" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-21">
+            <polygon id="Fill-1" points="0 64 64 64 64 0 0 0"></polygon>
+            <polygon id="Fill-2" points="4 60 60 60 60 4 4 4"></polygon>
+            <g id="Group-5" transform="translate(10.000000, 4.000000)">
+                <mask id="mask-3" fill="white">
+                    <use xlink:href="#path-2"></use>
+                </mask>
+                <use id="Clip-4" fill="url(#linearGradient-1)" xlink:href="#path-2"></use>
+                <path d="M6,0 C2.686,0 0,2.686 0,6 L0,50 C0,53.314 2.686,56 6,56 L38,56 C41.314,56 44,53.314 44,50 L44,13.657 C44,12.596 43.579,11.578 42.828,10.828 L33.171,1.171 C32.421,0.422 31.404,0 30.343,0 L6,0 Z" id="Fill-3" fill="url(#linearGradient-1)" mask="url(#mask-3)"></path>
+            </g>
+            <g id="Group-10" transform="translate(10.000000, 4.000000)">
+                <path d="M32,6 C32,9.313 34.687,12 38,12 L43.628,12 C43.432,11.57 43.169,11.169 42.829,10.828 L33.171,1.172 C32.831,0.831 32.43,0.568 32,0.372 L32,6 Z" id="Fill-6" fill="#E9EBF4" opacity="0.5"></path>
+                <polygon id="Fill-8" fill="#000000" opacity="0.15" points="0 50 44 50 44 26 0 26"></polygon>
+            </g>
+            <g id="Group-13" transform="translate(6.000000, 28.000000)">
+                <mask id="mask-5" fill="white">
+                    <use xlink:href="#path-4"></use>
+                </mask>
+                <g id="Clip-12"></g>
+                <path d="M3,0 C1.343,0 0,1.343 0,3 L0,21 C0,22.658 1.343,24 3,24 L49,24 C50.657,24 52,22.658 52,21 L52,3 C52,1.343 50.657,0 49,0 L3,0 Z" id="Fill-11" fill="url(#linearGradient-6)" mask="url(#mask-5)"></path>
+            </g>
+            <g id="Group-20" transform="translate(14.000000, 34.000000)" fill="#FFFFFF">
+                <polygon id="Fill-14" points="0.7759 11.791 0.7759 0.191 3.2629 0.191 3.2629 9.617 8.1679 9.617 8.1679 11.791"></polygon>
+                <path d="M19.3921,6 C19.3921,3.825 18.0181,2.191 15.8791,2.191 C13.7231,2.191 12.3481,3.825 12.3481,6 C12.3481,8.156 13.7231,9.809 15.8791,9.809 C18.0181,9.809 19.3921,8.156 19.3921,6 M9.8091,6 C9.8091,2.504 12.3661,0 15.8791,0 C19.3751,0 21.9311,2.504 21.9311,6 C21.9311,9.495 19.3751,12 15.8791,12 C12.3661,12 9.8091,9.495 9.8091,6" id="Fill-16"></path>
+                <path d="M24.1108,6 C24.1108,2.33 26.8938,0 30.3018,0 C32.7018,0 34.2148,1.218 35.0848,2.591 L33.0498,3.704 C32.5108,2.887 31.5198,2.191 30.3018,2.191 C28.1808,2.191 26.6498,3.809 26.6498,6 C26.6498,8.191 28.1808,9.809 30.3018,9.809 C31.3278,9.809 32.2848,9.356 32.7548,8.922 L32.7548,7.53 L29.6938,7.53 L29.6938,5.373 L35.2238,5.373 L35.2238,9.825 C34.0418,11.147 32.3888,12 30.3018,12 C26.8938,12 24.1108,9.651 24.1108,6" id="Fill-18"></path>
+            </g>
+        </g>
+    </g>
+</svg>
